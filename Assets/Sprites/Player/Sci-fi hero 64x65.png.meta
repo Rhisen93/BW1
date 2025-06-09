@@ -1,0 +1,3426 @@
+fileFormatVersion: 2
+guid: 1b66a3093367b524a9b616e103fb51c9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1190
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57494ec82ad96d14998c6258cda98e2f
+      internalID: -2146279926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1191
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce34beb6f5217ce418c6699c5b577a81
+      internalID: -1826328773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1192
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb535048a421bb44bad4cd9d5b451969
+      internalID: -270053548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1192
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d0ad15bc67f194d8a448e031822712
+      internalID: -520287350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_4
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1192
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a47d700cbf65e4ba2344da3e34f220
+      internalID: 368686120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_5
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1192
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80058ae1e3cbab449e3aa2946bd9e4a
+      internalID: 1883178088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1192
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af1003b6bb1ad142bed2f0045ec336c
+      internalID: 1299190565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_7
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1191
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832dd9ae2f493184cb10b0ceb4c750dd
+      internalID: -1126722227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_8
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1191
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750513f62831ad8438c0933475a99fac
+      internalID: 1104589321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_9
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1191
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9b656145327fa408493cdd14246373
+      internalID: 534945998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_10
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1190
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623fc232edf1dde4bb115ad0ab0c5aea
+      internalID: 771708789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_11
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1190
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626c9cc80f5f75742a74e9093d1712d8
+      internalID: 774850055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1125
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aee793e141b4124a855eeb7af7f91ad
+      internalID: -2099399932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_13
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1126
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb30b2c3db0a9264691fe0644e1a0df3
+      internalID: -1424683068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_14
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1127
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d04ce71ab96d0b4388a3ec6a7a392db
+      internalID: -119241896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_15
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1127
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208819233228b2b42ac95acedeb2ddbd
+      internalID: 1585486454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_16
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1127
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fb51865da77f246b5183462c5c488d
+      internalID: -499472633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_17
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1126
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85fc570b3ceb6640b2c32476fab41e1
+      internalID: 2092068094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_18
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1126
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5cf5b40d3a29d4a89c254f5efec476
+      internalID: -252500696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_19
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1126
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c782034d8d964a045b407ffea051f506
+      internalID: 1294531831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1060
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357d1706631ea1e4580db6e1c62190d8
+      internalID: 502773380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_21
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1061
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314e3e219c2efc84dbeeb0e32ab02909
+      internalID: -1404548227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_22
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1062
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d668272e6fddb354db0f7a063b1d6a86
+      internalID: 588392901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_23
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1062
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42d0331b50bc104795c8bbb41333b54
+      internalID: -1551174978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_24
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1062
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d55489f412ce2d4cb3ed4cbc7e97050
+      internalID: -1918480823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_25
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1061
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea99c8d742fb12347a829bc2b9dd6dac
+      internalID: -1353537006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_26
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1062
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3ad5b8a94393345b9681a74a838801
+      internalID: 284959952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_27
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1062
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6130bc46af661b24fadff434858fbf9d
+      internalID: -1331546073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 975
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bf36dd5d69a1e4288efba989c9c73c
+      internalID: -488804481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_29
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 975
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34fc28e7897c8d4b93fcb2f90697450
+      internalID: -808097045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 975
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d00ed2c76afeb54ca2944f83eaddea5
+      internalID: -1749566250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_31
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 995
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7548329734ba1204290419e46584feb7
+      internalID: 1926208772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_32
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 930
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f43a7d1a282f9745bab1532c73e4611
+      internalID: -1733367680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_33
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 933
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddaaf6b0fe839844b7dd8413c654fd2
+      internalID: 459124417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_34
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 914
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dbbb94ea0942b4abada1bea408e797
+      internalID: 417151348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_35
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 922
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9254b752cba605e4781c4416574f3ca6
+      internalID: -1971269729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_37
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 921
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cf5b4c9a547ea4499111a98db0b892
+      internalID: 1578772397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_38
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 921
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4859c7e998d84488abfafca9f2365c
+      internalID: -1077187544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_39
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 931
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6335f695757b20143a31a46d60551700
+      internalID: -312930440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_40
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 865
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ba849a382645c4d8ee8774e0aa4c1b
+      internalID: 1699045047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_41
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 866
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d41ffa5090670346a4debb12d9ecdfb
+      internalID: 256064657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_42
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 867
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cf4a05b6cd8f844812f91cb0f8986c
+      internalID: -1480845990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_43
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 867
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e4cdbe343af5747a26fec1f1544f3d
+      internalID: -1733342867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_44
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 865
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41967bd5d94e3dd459a9073559f15b1b
+      internalID: -604659195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_45
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 866
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffc0347b2633824c967fd8c784bd5df
+      internalID: 2124291386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_46
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 867
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916e29c688f73664a884e4b4e823bacf
+      internalID: -1921694583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_47
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 867
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fc4a39b0dc65a41b10373a24b16251
+      internalID: 760861984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_48
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 800
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea7c257559e1d54fa0784d845c15013
+      internalID: 513611814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_49
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 801
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd222191d9208ad4caf03bbbf0566dc2
+      internalID: -2037281518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_50
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 802
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efeade0ddbd906349b075d633ad4691f
+      internalID: 795009485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_51
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 802
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b013be21b7a25c449b9f389d7d432f62
+      internalID: 927908590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_52
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 802
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d11a4c22375c940ba705a9106d85aa
+      internalID: 1868084003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_53
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 802
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f6530c212b1f247b8f593217bd85b4
+      internalID: 1945960654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_54
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 802
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfe3e524ba53af4ab8ed4864620fe30
+      internalID: -1758202736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_55
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 801
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767b060d13ec2bb49b16c67dcc457dad
+      internalID: 1064117299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_56
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 801
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa92abeae092f740a2f0fb8918c0172
+      internalID: -617923972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_57
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 801
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9c618be1acc294993b94b31e5455be
+      internalID: 627214615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_58
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 800
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86afe45b88ad02c4c9402db43d99219d
+      internalID: 1823668607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_59
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 800
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2884e3f06c9ce4f4fafd897b404ace47
+      internalID: 1861078435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_60
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 735
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287e21988b9422c4e8046516517fa848
+      internalID: -1232732495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_61
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 736
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5720388dd1d27614987ce3b203cff8c2
+      internalID: -815016511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_62
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 737
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9c43ec09f96ec46b9703901f6535bd
+      internalID: -1324916602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_63
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 737
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1a6d3d26636eb489dfbd026988c712
+      internalID: 1471948705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_64
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 737
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29ba179096eabe498d37155dc89dddc
+      internalID: 1699044092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_65
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 737
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc8ebf271c30614a9f2ebf5c85f0d06
+      internalID: 220552372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_66
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 737
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39a496fae84cf14aaefc8a980d1932e
+      internalID: 35461227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_67
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 737
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa6a3c9aee80f244a3a7e50c0a3991d
+      internalID: 1069889783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_68
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 670
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca88ffebf0c1e046938dc0f6e3ec949
+      internalID: -1087711561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_69
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 671
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b01549ba4753354a8fbad816f67c7e0
+      internalID: 1835027636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_70
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 672
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae7740e1e77bfe4388271c3ca288e59
+      internalID: 804816346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_71
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 672
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c94358ed8ba7a4e9834da1ffbd1ca5
+      internalID: 1447926492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_72
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 670
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737b8c32d72bb644b8b6f6cdb08ac276
+      internalID: 616732730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_73
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 671
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4378c79ee2cba1648a22de74db769aa3
+      internalID: 1867426079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_74
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 672
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a42d588b88c5c4fb7628262b863223
+      internalID: -1426080890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_75
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 672
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfbd105d3a6a1c46b07e814d603f3bf
+      internalID: -611148216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_76
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 605
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364cea3a59b656842a43b3c59c8a44b6
+      internalID: 2069651553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_77
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 605
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f6fb6f08e872c44ac34a24eae1ff05
+      internalID: -1351532732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_78
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 606
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc034533ccd8ab42927ff8d2ca54a2c
+      internalID: 635359418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_79
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 607
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfb9a4feda49a94080a21931420a942
+      internalID: 1061288129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_80
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 607
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8f0e2079b3e68448d451b226911909
+      internalID: 1889145602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_81
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 605
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a66c8434624434e8012006c39f14a7
+      internalID: 878073085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_82
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 542
+        width: 42
+        height: 21
+      alignment: 9
+      pivot: {x: 0.26100063, y: 0.42918468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a57a2e26c78db4484941d327ea150a
+      internalID: 1719814045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_83
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 542
+        width: 41
+        height: 18
+      alignment: 9
+      pivot: {x: 0.21890055, y: 0.45869276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1a515d08462d5448d332c7ff2e21ee
+      internalID: 947725893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_84
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 542
+        width: 42
+        height: 17
+      alignment: 9
+      pivot: {x: 0.18133399, y: 0.45626292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d167fa94310da4eb66254b8d8e39ba
+      internalID: -1852264081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_85
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 542
+        width: 44
+        height: 18
+      alignment: 9
+      pivot: {x: 0.1873696, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1bfd88cce315e409d9b0c3a8263314
+      internalID: -1613348277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_86
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 472
+        width: 58
+        height: 23
+      alignment: 9
+      pivot: {x: 0.29488182, y: 0.5161637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c19993552acb1c4bbf6a55a059df84a
+      internalID: -1941718726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_87
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 472
+        width: 24
+        height: 22
+      alignment: 9
+      pivot: {x: 0.7013791, y: 0.46620178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013a89931b8b3fc458185319e16809ca
+      internalID: -135695914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_88
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 472
+        width: 48
+        height: 23
+      alignment: 9
+      pivot: {x: 0.88726777, y: 0.5161637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e423e3f8063af464797b7b99292211d3
+      internalID: 1857807719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_89
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 471
+        width: 48
+        height: 24
+      alignment: 9
+      pivot: {x: 0.88726777, y: 0.5464719}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21219a13434026f4dad3ac325294a6a2
+      internalID: -1932710582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_90
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 471
+        width: 64
+        height: 24
+      alignment: 9
+      pivot: {x: 0.62779856, y: 0.51549023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046ce4bb292ccaa4d8dd9320ebf93535
+      internalID: 1841583813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_91
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 412
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e083ae3b7a857a4baeb070bf10a1c0a
+      internalID: -1076401157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_92
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 412
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56056b3f89bb7fc4b9041355c5376dea
+      internalID: 170066874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_93
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 412
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc011a209018c04aabc0e8ec8a01e47
+      internalID: -1975537019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_94
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 412
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9e03558fa8aed4aa04db5da7b89f3a
+      internalID: -88152493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_95
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 412
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900eefe31a6417c47ac5538f55743672
+      internalID: -937742766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_96
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 412
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7967b1e680e45479975e27df580ae2
+      internalID: -235351129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_97
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 412
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1ac3a38b5b84a43a8d2530bd0c34b9
+      internalID: 1277586110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_98
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 412
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27c0d3130957ce46baa05e891b6857e
+      internalID: -807678814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_99
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 412
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8c7fce5cbe6af4da553c2c389d532b
+      internalID: -1852437175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_100
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 412
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaeb10e0da5a504287a9ef3ded907c4
+      internalID: 1069864057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_101
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 412
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bf070432726ec4f8504b100ed9890f
+      internalID: 397572043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_102
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 412
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b2a355cdbb3c74e9b9f22367e12115
+      internalID: 776982125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_103
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 347
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e57c32c86c65174badf59a084d75488
+      internalID: 1363428778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_104
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 346
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ec487d12b17a543ae576fc731f76c3
+      internalID: 1083675788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_105
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 347
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606683d50a6af494baaf6c6f3fcd1367
+      internalID: -1491823126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_106
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 348
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac561fffd204ab24aafebc0192dda9e7
+      internalID: 1376742492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_107
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 347
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f5ae2843dc2434594d7d0715cb0e2c
+      internalID: 810370102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_108
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 347
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba70f1ad19f005e42984aaea12a8fb84
+      internalID: -642546811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_109
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 346
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e39ef0ab33159408d2c57ac5047d04
+      internalID: -202345695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_110
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 348
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a0bc12799b8a840b061e7ba060ea22
+      internalID: -296257805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_111
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 282
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6d46a92ee215246b56f4937f70b24f
+      internalID: 1749264255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_112
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 281
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117151f43a8407a4a9e82d44041416f5
+      internalID: 241110284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_113
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 282
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac20194e0d157274d92b9cfaea5e5a4f
+      internalID: -2066247515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_114
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 283
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4daf8926c40754ebee246e818afbef
+      internalID: -482881140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_115
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 282
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66bfb9302af92140b6148f18479aba1
+      internalID: 818639583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_116
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 282
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d311dc748d12f60498468e9792d44c14
+      internalID: -1906123171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_117
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 281
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbf26ec24189d44daf848a14b64a2df
+      internalID: 575909697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_118
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 283
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aba5b5c4bccd1d4cb69c20464e01abc
+      internalID: -349369317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_119
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 216
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1c6f3033104fd4aacaf45016444c88
+      internalID: 1529509081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_121
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 216
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5840042910895f74e803178541c01d4c
+      internalID: 203426914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_122
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 217
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35eb81b522e64814495ed954508b1e78
+      internalID: 1273923652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_123
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 216
+        width: 19
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b5fba370181594185d4ffedd05a002
+      internalID: 1039477973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_t3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 151
+        width: 38
+        height: 37
+      alignment: 9
+      pivot: {x: 0.49301186, y: 0.23443851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9ac16b9e4bf1141878ee94d5c3dbb1
+      internalID: 1994678438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_t5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 151
+        width: 33
+        height: 33
+      alignment: 9
+      pivot: {x: 0.36319616, y: 0.26662746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3bf04e0503e0f45bb6304e58f82688
+      internalID: -305841254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_t6
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 151
+        width: 32
+        height: 33
+      alignment: 9
+      pivot: {x: 0.3755188, y: 0.25858006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d2e7cad4e9ec144a4fe56a02fe6662
+      internalID: 951204266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_t1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 152
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a825510affa834bb30b1c4ae6e6517
+      internalID: 1860565025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_t2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 153
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405584015e6b9954d947650e5ab298b3
+      internalID: -1967887323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_t4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 151
+        width: 37
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4138724, y: 0.24273682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274e23f8b12bea34e88ff919ec7b3832
+      internalID: 1307992633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_t7
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 152
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1e6242bed0cc541b25f3fd100079ce
+      internalID: 1392132868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_132
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 87
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b7aa42b9671ef4d91f158708ad584c
+      internalID: -753364488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_133
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 88
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5057d098d481e45bdb5e6da7e037df
+      internalID: 299348718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_134
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 89
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d4911250e750c48a2f6a4c5499493d
+      internalID: -68082742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_135
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 87
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a14dc1fe9dfe949add4270e6371690
+      internalID: -550742056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_137
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 85
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d46a5ffb6322594582b2324494f1dad
+      internalID: -1912914338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_138
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 86
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69206d411752bf242bb110dc4bd79265
+      internalID: 688776681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_139
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 87
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f47684489f63f48af1a8b1da5e6c48
+      internalID: -367357545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_140
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 87
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e220f92f0658842ad1109e20635c77
+      internalID: 419594551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_d1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 20
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6943d7a44b8a0d1409b719e3841e68a6
+      internalID: -605271230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_d2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 21
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c773c81d258258e4ea16c22353b9c70a
+      internalID: 1783945533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_d3
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 21
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a69ed0416332154aaf49ea443d6ff47
+      internalID: 1535569223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_d4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 21
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c7a475a98b27c4dab6f1216439bcfb
+      internalID: 1926570922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_d5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 22
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e138b383daf2f4047ad4d16ee541272a
+      internalID: -1179818698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_d6
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 22
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644d946a7c84b7549976bd8e8fdc2646
+      internalID: -487527100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_d7
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 22
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5007021b0545d4099145f3b478b281
+      internalID: 1172648994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_d8
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 22
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5d8511ae94ced49a237513f616d2da
+      internalID: 338758652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_d9
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 23
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4e390b1e62a0b4980c22ba402e2d25
+      internalID: -864890820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_d11
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 23
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2784b1f74d0e44e8cc5657199dd938
+      internalID: -933400266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_d10
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 23
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c8bee12e473da46b9f8bdf21af37ad
+      internalID: 21533212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_d12
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 23
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52d45a9d1d6e87418f84b6cc30c78c9
+      internalID: 1405059683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sci-fi hero 64x65_d13
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 44
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c2a506e48ec7c41b0cbd4ee157007e
+      internalID: 1328225811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sci-fi hero 64x65_0: -2146279926
+      Sci-fi hero 64x65_1: -1826328773
+      Sci-fi hero 64x65_10: 771708789
+      Sci-fi hero 64x65_100: 1069864057
+      Sci-fi hero 64x65_101: 397572043
+      Sci-fi hero 64x65_102: 776982125
+      Sci-fi hero 64x65_103: 1363428778
+      Sci-fi hero 64x65_104: 1083675788
+      Sci-fi hero 64x65_105: -1491823126
+      Sci-fi hero 64x65_106: 1376742492
+      Sci-fi hero 64x65_107: 810370102
+      Sci-fi hero 64x65_108: -642546811
+      Sci-fi hero 64x65_109: -202345695
+      Sci-fi hero 64x65_11: 774850055
+      Sci-fi hero 64x65_110: -296257805
+      Sci-fi hero 64x65_111: 1749264255
+      Sci-fi hero 64x65_112: 241110284
+      Sci-fi hero 64x65_113: -2066247515
+      Sci-fi hero 64x65_114: -482881140
+      Sci-fi hero 64x65_115: 818639583
+      Sci-fi hero 64x65_116: -1906123171
+      Sci-fi hero 64x65_117: 575909697
+      Sci-fi hero 64x65_118: -349369317
+      Sci-fi hero 64x65_119: 1529509081
+      Sci-fi hero 64x65_12: -2099399932
+      Sci-fi hero 64x65_121: 203426914
+      Sci-fi hero 64x65_122: 1273923652
+      Sci-fi hero 64x65_123: 1039477973
+      Sci-fi hero 64x65_125: -510803333
+      Sci-fi hero 64x65_13: -1424683068
+      Sci-fi hero 64x65_132: -753364488
+      Sci-fi hero 64x65_133: 299348718
+      Sci-fi hero 64x65_134: -68082742
+      Sci-fi hero 64x65_135: -550742056
+      Sci-fi hero 64x65_136: 206862038
+      Sci-fi hero 64x65_137: -1912914338
+      Sci-fi hero 64x65_138: 688776681
+      Sci-fi hero 64x65_139: -367357545
+      Sci-fi hero 64x65_14: -119241896
+      Sci-fi hero 64x65_140: 419594551
+      Sci-fi hero 64x65_146: -1309537509
+      Sci-fi hero 64x65_148: -27509991
+      Sci-fi hero 64x65_149: 907971797
+      Sci-fi hero 64x65_15: 1585486454
+      Sci-fi hero 64x65_151: -1267977848
+      Sci-fi hero 64x65_152: 1333516751
+      Sci-fi hero 64x65_154: -1770011850
+      Sci-fi hero 64x65_155: -1492000742
+      Sci-fi hero 64x65_157: 416510591
+      Sci-fi hero 64x65_158: 1115478990
+      Sci-fi hero 64x65_16: -499472633
+      Sci-fi hero 64x65_17: 2092068094
+      Sci-fi hero 64x65_18: -252500696
+      Sci-fi hero 64x65_19: 1294531831
+      Sci-fi hero 64x65_2: -270053548
+      Sci-fi hero 64x65_20: 502773380
+      Sci-fi hero 64x65_21: -1404548227
+      Sci-fi hero 64x65_22: 588392901
+      Sci-fi hero 64x65_23: -1551174978
+      Sci-fi hero 64x65_24: -1918480823
+      Sci-fi hero 64x65_25: -1353537006
+      Sci-fi hero 64x65_26: 284959952
+      Sci-fi hero 64x65_27: -1331546073
+      Sci-fi hero 64x65_28: -488804481
+      Sci-fi hero 64x65_29: -808097045
+      Sci-fi hero 64x65_3: -520287350
+      Sci-fi hero 64x65_30: -1749566250
+      Sci-fi hero 64x65_31: 1926208772
+      Sci-fi hero 64x65_32: -1733367680
+      Sci-fi hero 64x65_33: 459124417
+      Sci-fi hero 64x65_34: 417151348
+      Sci-fi hero 64x65_35: -1971269729
+      Sci-fi hero 64x65_36: 567349262
+      Sci-fi hero 64x65_37: 1578772397
+      Sci-fi hero 64x65_38: -1077187544
+      Sci-fi hero 64x65_39: -312930440
+      Sci-fi hero 64x65_4: 368686120
+      Sci-fi hero 64x65_40: 1699045047
+      Sci-fi hero 64x65_41: 256064657
+      Sci-fi hero 64x65_42: -1480845990
+      Sci-fi hero 64x65_43: -1733342867
+      Sci-fi hero 64x65_44: -604659195
+      Sci-fi hero 64x65_45: 2124291386
+      Sci-fi hero 64x65_46: -1921694583
+      Sci-fi hero 64x65_47: 760861984
+      Sci-fi hero 64x65_48: 513611814
+      Sci-fi hero 64x65_49: -2037281518
+      Sci-fi hero 64x65_5: 1883178088
+      Sci-fi hero 64x65_50: 795009485
+      Sci-fi hero 64x65_51: 927908590
+      Sci-fi hero 64x65_52: 1868084003
+      Sci-fi hero 64x65_53: 1945960654
+      Sci-fi hero 64x65_54: -1758202736
+      Sci-fi hero 64x65_55: 1064117299
+      Sci-fi hero 64x65_56: -617923972
+      Sci-fi hero 64x65_57: 627214615
+      Sci-fi hero 64x65_58: 1823668607
+      Sci-fi hero 64x65_59: 1861078435
+      Sci-fi hero 64x65_6: 1299190565
+      Sci-fi hero 64x65_60: -1232732495
+      Sci-fi hero 64x65_61: -815016511
+      Sci-fi hero 64x65_62: -1324916602
+      Sci-fi hero 64x65_63: 1471948705
+      Sci-fi hero 64x65_64: 1699044092
+      Sci-fi hero 64x65_65: 220552372
+      Sci-fi hero 64x65_66: 35461227
+      Sci-fi hero 64x65_67: 1069889783
+      Sci-fi hero 64x65_68: -1087711561
+      Sci-fi hero 64x65_69: 1835027636
+      Sci-fi hero 64x65_7: -1126722227
+      Sci-fi hero 64x65_70: 804816346
+      Sci-fi hero 64x65_71: 1447926492
+      Sci-fi hero 64x65_72: 616732730
+      Sci-fi hero 64x65_73: 1867426079
+      Sci-fi hero 64x65_74: -1426080890
+      Sci-fi hero 64x65_75: -611148216
+      Sci-fi hero 64x65_76: 2069651553
+      Sci-fi hero 64x65_77: -1351532732
+      Sci-fi hero 64x65_78: 635359418
+      Sci-fi hero 64x65_79: 1061288129
+      Sci-fi hero 64x65_8: 1104589321
+      Sci-fi hero 64x65_80: 1889145602
+      Sci-fi hero 64x65_81: 878073085
+      Sci-fi hero 64x65_82: 1719814045
+      Sci-fi hero 64x65_83: 947725893
+      Sci-fi hero 64x65_84: -1852264081
+      Sci-fi hero 64x65_85: -1613348277
+      Sci-fi hero 64x65_86: -1941718726
+      Sci-fi hero 64x65_87: -135695914
+      Sci-fi hero 64x65_88: 1857807719
+      Sci-fi hero 64x65_89: -1932710582
+      Sci-fi hero 64x65_9: 534945998
+      Sci-fi hero 64x65_90: 1841583813
+      Sci-fi hero 64x65_91: -1076401157
+      Sci-fi hero 64x65_92: 170066874
+      Sci-fi hero 64x65_93: -1975537019
+      Sci-fi hero 64x65_94: -88152493
+      Sci-fi hero 64x65_95: -937742766
+      Sci-fi hero 64x65_96: -235351129
+      Sci-fi hero 64x65_97: 1277586110
+      Sci-fi hero 64x65_98: -807678814
+      Sci-fi hero 64x65_99: -1852437175
+      Sci-fi hero 64x65_d1: -605271230
+      Sci-fi hero 64x65_d10: 21533212
+      Sci-fi hero 64x65_d11: -933400266
+      Sci-fi hero 64x65_d12: 1405059683
+      Sci-fi hero 64x65_d13: 1328225811
+      Sci-fi hero 64x65_d2: 1783945533
+      Sci-fi hero 64x65_d3: 1535569223
+      Sci-fi hero 64x65_d4: 1926570922
+      Sci-fi hero 64x65_d5: -1179818698
+      Sci-fi hero 64x65_d6: -487527100
+      Sci-fi hero 64x65_d7: 1172648994
+      Sci-fi hero 64x65_d8: 338758652
+      Sci-fi hero 64x65_d9: -864890820
+      Sci-fi hero 64x65_t1: 1860565025
+      Sci-fi hero 64x65_t2: -1967887323
+      Sci-fi hero 64x65_t3: 1994678438
+      Sci-fi hero 64x65_t4: 1307992633
+      Sci-fi hero 64x65_t5: -305841254
+      Sci-fi hero 64x65_t6: 951204266
+      Sci-fi hero 64x65_t7: 1392132868
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

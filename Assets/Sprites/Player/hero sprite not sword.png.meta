@@ -1,0 +1,2908 @@
+fileFormatVersion: 2
+guid: 55d6da92d96a4b444904d5722e83cdb9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hero sprite not sword_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 802
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e7e2f14abd7e941815781e93a7d0e4
+      internalID: -1394887362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 802
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91be88f86aa39cf409eda26fa11c21dd
+      internalID: -1870914383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 802
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab2594a4057975489b9be44fcbaa9ad
+      internalID: 189122602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 802
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe164c2296b83094a83677baaff851f3
+      internalID: 395195346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_4
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 802
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a179ed83dcfc4e74ca8b91ca812f63ca
+      internalID: -757595733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_5
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 802
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c607e2901b3ef74780883f9c2ca9611
+      internalID: 1060660656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 802
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9ad837f5d21ba4db28622ffb0c0357
+      internalID: -1706872490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_7
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 802
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279c8b014919b8b4cba93df7024966a0
+      internalID: 667448338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_8
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 802
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec1052556345714999a15330c144230
+      internalID: -1765370115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_9
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 802
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb089582f4975554e882e5e6eb448a73
+      internalID: -1371514524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_10
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 802
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747818c3b28c83e4f87c0a2e1c6927e0
+      internalID: -718287438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_11
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 802
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadfa4102d230f440a41d6c481aab16b
+      internalID: 664076700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 737
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb00f697b5fadb24b8b87f193310cb59
+      internalID: 1107116697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_13
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 737
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3ec9931f0c66f478bb0d7e1d8d8ee9
+      internalID: 558368101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_14
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 738
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c105de17a83404f941be18d07f1bd8
+      internalID: -1777068539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_15
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 738
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2565994292a10f544b12083df873f715
+      internalID: 2146170104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_16
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 737
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa541d915b688f48a3c53b255f953b6
+      internalID: -2042808164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_17
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 737
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ca6d47a05491048a69c9432121345a
+      internalID: -1807308728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_18
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 738
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c836308ebc77f489323ad8fb3f1c74
+      internalID: -2107818901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_19
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 738
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c59cdd4bb0dd74992937b3af27603a
+      internalID: -236135142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 672
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6770a77253a44de45b71dcf44100f08c
+      internalID: -547671258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_21
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 672
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c05db39dd78c6447b127ff307d092d8
+      internalID: 279749132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_22
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 673
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009680bced4d7874fa0c3ffa3aeb3d61
+      internalID: 811693302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_23
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 673
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737343d12af69d64f969df7c15503c23
+      internalID: 156560915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_24
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 672
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eea71a1262f0214da9a19cb316f5426
+      internalID: 1164701595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_25
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 672
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a1a4be9b1562444b5753e8e1390c14
+      internalID: 93723622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_26
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 673
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab62254af329a845ada2f988a475839
+      internalID: 1008624734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_27
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 673
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32574f2028c8d04aafeaa17a0074bd4
+      internalID: -2146402156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_28
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 607
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446b7bcbe38a5ae44ae2867261df7c9d
+      internalID: -110886856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_29
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 608
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ae18c90082a744a9dd4745c33ab7fa
+      internalID: -500314776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_30
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 609
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638c62c8d90c62946931513d8205426c
+      internalID: -1879743947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_31
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 607
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bdd55b3d753324c8ab11f43ffb4c20
+      internalID: -881146926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_32
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 605
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2251b891df5ffe84a867e22c94a2afa4
+      internalID: 1789084308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_33
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 606
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0873c53c50adfec4c86e18c0961844a9
+      internalID: 461667712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_34
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 607
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4dfe1ecbd666424199cfcf42d2c07e7
+      internalID: 1890595478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_35
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 607
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323acdf55bdd436419197aca5bfaa26d
+      internalID: -2021421526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_36
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 542
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fc088ca7b1ed34c860bd6fb10c18e6
+      internalID: 766965351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_37
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 542
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08451a1e6bf4f1a4c83335c8a3c3f877
+      internalID: -1005177680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_38
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 542
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4f0404c2201d74c91aa8ed3d650af1
+      internalID: -284432644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_39
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 542
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12302ae084103344189ec6f93fc7925d
+      internalID: -1249138861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_40
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 542
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fe68c136762704ca8cf8f3bd847d7a
+      internalID: -680004838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 542
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35542a3464d929845bf958a97331024a
+      internalID: 623731039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_42
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 542
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615b411c9499ee346b28610a54f0ec01
+      internalID: 61267324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_43
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 542
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd8b8cbeaf6880428646cc49a4d86fb
+      internalID: 1964881051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_44
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 542
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de153a0f676f30244962440dfd2b74de
+      internalID: 1833105380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_45
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 542
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d3af882e5dfe5468473293e60655bc
+      internalID: -151236957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_46
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 542
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0e7a8faeedf4147a28b815f8fe32c2
+      internalID: 158839353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_47
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 542
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a96b12dc8dfa74c98000988a973377
+      internalID: -228651790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_48
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 477
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a6cb174f91db9429e76b180d78b516
+      internalID: 1490922286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_49
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 477
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f117f50dc9c597e47adf14fb47369e1d
+      internalID: -1458145952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_50
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 477
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5ac89f800878745a592c8ec5ccecc8
+      internalID: 2091925912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_51
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 477
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f3bae8de4bd894096bfc4908cdb0b4
+      internalID: -909035784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_52
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 477
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0419173285a74fe4c8365ac848acddef
+      internalID: -417058400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_53
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 477
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a617a125be226ef459f3ad48493f5935
+      internalID: -1469940492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_54
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 477
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aeef5f5733a7f84eb91cb3f5b467912
+      internalID: -1170148060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_55
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 477
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6365ca1379210eb4eb74e0db210b6966
+      internalID: -869285955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_56
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 412
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21d8c6e3ad965448b0a22e969804722
+      internalID: 111114659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_57
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 412
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3367a9c933bb03a45875d45473a04a12
+      internalID: -2082079318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_58
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 412
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0cb0d5b3e931143a0358af90ebaccb
+      internalID: -19654559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_59
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 412
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8952babcf34e8549925fe9bbf15ab1a
+      internalID: 925416333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_60
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 412
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4540c60899dc8b46a4f3c91827e30c8
+      internalID: -921488756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_61
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 412
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a5844dd4f738a4a8147b8e76043839
+      internalID: 1446132293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_62
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 412
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f95e1105cb420647830c2014b17e669
+      internalID: 638162450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_63
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 412
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb55b29a2e9248498b2416bc9e7d491
+      internalID: 1792792797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_64
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 347
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06545e6cbd42a142a9536cfa0b22c5c
+      internalID: -151269104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_65
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 347
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce71cb964700fd44e85e81043a76472d
+      internalID: 800269965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_66
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 347
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed00616af83d6f5479a01380526a8a81
+      internalID: -620743009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_67
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 347
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed43675960e51d498e1c1320e28cab7
+      internalID: -2011611084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_68
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 347
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc50b56989536142b17998222cd9ae9
+      internalID: 929633072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_69
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 347
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7b3b5a625cd444ca53968bbe7b61f8
+      internalID: -1984367839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_70
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 282
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d230bf91184e18409a5ddd08fc78093
+      internalID: 1696790628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_71
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 282
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8d1b2c7f11c6946b2bb679520da42b
+      internalID: -1663407320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_72
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 282
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fe9fc3d6d0f9b47965f3170992c69c
+      internalID: 1872647702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_73
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 282
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089cb7c47ad0d444196c5588133c78cf
+      internalID: -246155821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_74
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 282
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01362952ce69c794a826056ca64f86a7
+      internalID: -8336476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_75
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 282
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189c81b2ebb60084e8c1c49168daa65b
+      internalID: 481731651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_76
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 282
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ed23f759970fd44b891988ab47dbbb
+      internalID: -1680835437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_77
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 282
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7277efc2ad9a1334a8cecb9cd40722b2
+      internalID: -410930378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_78
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 282
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac506662cc6585459ed8459856aacd7
+      internalID: -1900167337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_79
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 282
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10536ce01567fb54da3ace5ebdcd21c7
+      internalID: 1741747926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_80
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 282
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507572f00f4cf6e40b80e33b17cb9759
+      internalID: -1430276072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_81
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 282
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42d4aec2c9b56b40a8a374eae76040b
+      internalID: -272676150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_82
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 217
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf756c9a52d6b145967a203a005b8c6
+      internalID: -1354108510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_83
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 216
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7271c79c6731a6940be969981f1cb2f9
+      internalID: 1720015540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_84
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 217
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c844f3d5bdefe4897d0b536d151cf4
+      internalID: -1987642343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_85
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 218
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d816a8c41a961a4b93d13746750317f
+      internalID: -1953417992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_86
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 217
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d013d3859aba84741b86e669b3f9f8e4
+      internalID: 473941190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_87
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 217
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6b84912c81bf2448c3f1ae51f5215c
+      internalID: -1375688126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_88
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 216
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0436138b9ea8b4db139ad800805307
+      internalID: 1983211176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_89
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 218
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d875038f58e92d84db68f90df11ac226
+      internalID: -578009070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_90
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 152
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ad947c00cad2d41a222e37e482981d
+      internalID: 535886111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_91
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 151
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8087c8fc1673a564994c30f50bfe08e7
+      internalID: -1059780404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_92
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 152
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381d13d38b16b3e4e943f7ba2637bcbd
+      internalID: -1738533813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_93
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 153
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01c8288ce8708942a047347535e8533
+      internalID: 15763167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_94
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 152
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4642322d255ce2468be9ced62f0d9a7
+      internalID: -1362039188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_95
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 152
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5422f0b30358a4b9a6937dda33119f
+      internalID: -913226873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_96
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 151
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39894fd7d0ea024582a0165bcd2c738
+      internalID: 1471799266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_97
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 153
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1746a778459401847b290bf00950be9f
+      internalID: 1407996010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_98
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 87
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ff816b7aeeb5048be47eff0bb89577
+      internalID: -1948332574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_99
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 88
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5118bc383c2cc442818b77c60e15578
+      internalID: -1800010683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_100
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 89
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4c0cc2eb8b17a47ab97cbe23760079
+      internalID: -728029590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_101
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 87
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d61df610fc0d2c4e99e77c7eee76f6f
+      internalID: 918357532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_102
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 85
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadb2f8159b4d8241b2d3f2c37e92029
+      internalID: 1102717229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_103
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 86
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba0cc572ff48954baa06b9cfe837450
+      internalID: -999854821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_104
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 87
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7500414aa1523fd4a9d880acdfed02c4
+      internalID: 851404678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_105
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 87
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d20b745cff5491479b30272d93886da
+      internalID: -1473356046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_106
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 22
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c6e730715cec14f9ce940b0d3656b3
+      internalID: -1502325931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_107
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 21
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea0d28ab3460c242b9c4851ba914869
+      internalID: -1658154281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_108
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 33
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ddc0cd9686994468122a7a59468ae5
+      internalID: 517855020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_109
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 21
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1373d39d799cc4347a600c7d80cb4b25
+      internalID: 590041737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_110
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 25
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c65c115a8059ed4d98f6c4b10720ecb
+      internalID: -846167803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_111
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 21
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d42ad56e2f4d442b29b072616441f2
+      internalID: 839707554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_112
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 21
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b2f1e2af22c594c97bb51b4f8bef3a
+      internalID: 251943649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_113
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 35
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22af25b692999724c83b964b7ce517d9
+      internalID: 1418461560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_114
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 21
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c989bdfc1dd5978459560cd9007c18c3
+      internalID: 431409820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_115
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 22
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cf6c3143120c14b80d9568aa7b088f
+      internalID: 2065048571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_116
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 36
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280b26ce2aa26c549b6d4c35bfc3066c
+      internalID: 1099286934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_117
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 22
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254e542186a7e49458f51e27745a107b
+      internalID: 1027917972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_118
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 22
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0737e89479ab8488271301469cde63
+      internalID: -523197669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_119
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 37
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4e8376a8356ff40b91d11ec8bcc153
+      internalID: -1722833457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_120
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 22
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eddc3f493719544ca59380c99cbd8e8
+      internalID: 569687207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_121
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 23
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabbe9424ed45794e9311f885c3cbb01
+      internalID: -1701797052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_122
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 22
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057a974cbc271934cb7abe8ce674b06b
+      internalID: -1134720471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_123
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 23
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2699afe4bf6fbf64b9e0eaed4530950b
+      internalID: -1696733110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_124
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 22
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddaf5be32c5d1347a0d22e6fbc9db04
+      internalID: 535345016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_125
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 23
+        width: 83
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e8f6810c7f1794d9e0e84c9a094f2a
+      internalID: 157905224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero sprite not sword_126
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 23
+        width: 137
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78df8bdf78620145a292a48d359af19
+      internalID: -1782062239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hero sprite not sword_0: -1394887362
+      hero sprite not sword_1: -1870914383
+      hero sprite not sword_10: -718287438
+      hero sprite not sword_100: -728029590
+      hero sprite not sword_101: 918357532
+      hero sprite not sword_102: 1102717229
+      hero sprite not sword_103: -999854821
+      hero sprite not sword_104: 851404678
+      hero sprite not sword_105: -1473356046
+      hero sprite not sword_106: -1502325931
+      hero sprite not sword_107: -1658154281
+      hero sprite not sword_108: 517855020
+      hero sprite not sword_109: 590041737
+      hero sprite not sword_11: 664076700
+      hero sprite not sword_110: -846167803
+      hero sprite not sword_111: 839707554
+      hero sprite not sword_112: 251943649
+      hero sprite not sword_113: 1418461560
+      hero sprite not sword_114: 431409820
+      hero sprite not sword_115: 2065048571
+      hero sprite not sword_116: 1099286934
+      hero sprite not sword_117: 1027917972
+      hero sprite not sword_118: -523197669
+      hero sprite not sword_119: -1722833457
+      hero sprite not sword_12: 1107116697
+      hero sprite not sword_120: 569687207
+      hero sprite not sword_121: -1701797052
+      hero sprite not sword_122: -1134720471
+      hero sprite not sword_123: -1696733110
+      hero sprite not sword_124: 535345016
+      hero sprite not sword_125: 157905224
+      hero sprite not sword_126: -1782062239
+      hero sprite not sword_13: 558368101
+      hero sprite not sword_14: -1777068539
+      hero sprite not sword_15: 2146170104
+      hero sprite not sword_16: -2042808164
+      hero sprite not sword_17: -1807308728
+      hero sprite not sword_18: -2107818901
+      hero sprite not sword_19: -236135142
+      hero sprite not sword_2: 189122602
+      hero sprite not sword_20: -547671258
+      hero sprite not sword_21: 279749132
+      hero sprite not sword_22: 811693302
+      hero sprite not sword_23: 156560915
+      hero sprite not sword_24: 1164701595
+      hero sprite not sword_25: 93723622
+      hero sprite not sword_26: 1008624734
+      hero sprite not sword_27: -2146402156
+      hero sprite not sword_28: -110886856
+      hero sprite not sword_29: -500314776
+      hero sprite not sword_3: 395195346
+      hero sprite not sword_30: -1879743947
+      hero sprite not sword_31: -881146926
+      hero sprite not sword_32: 1789084308
+      hero sprite not sword_33: 461667712
+      hero sprite not sword_34: 1890595478
+      hero sprite not sword_35: -2021421526
+      hero sprite not sword_36: 766965351
+      hero sprite not sword_37: -1005177680
+      hero sprite not sword_38: -284432644
+      hero sprite not sword_39: -1249138861
+      hero sprite not sword_4: -757595733
+      hero sprite not sword_40: -680004838
+      hero sprite not sword_41: 623731039
+      hero sprite not sword_42: 61267324
+      hero sprite not sword_43: 1964881051
+      hero sprite not sword_44: 1833105380
+      hero sprite not sword_45: -151236957
+      hero sprite not sword_46: 158839353
+      hero sprite not sword_47: -228651790
+      hero sprite not sword_48: 1490922286
+      hero sprite not sword_49: -1458145952
+      hero sprite not sword_5: 1060660656
+      hero sprite not sword_50: 2091925912
+      hero sprite not sword_51: -909035784
+      hero sprite not sword_52: -417058400
+      hero sprite not sword_53: -1469940492
+      hero sprite not sword_54: -1170148060
+      hero sprite not sword_55: -869285955
+      hero sprite not sword_56: 111114659
+      hero sprite not sword_57: -2082079318
+      hero sprite not sword_58: -19654559
+      hero sprite not sword_59: 925416333
+      hero sprite not sword_6: -1706872490
+      hero sprite not sword_60: -921488756
+      hero sprite not sword_61: 1446132293
+      hero sprite not sword_62: 638162450
+      hero sprite not sword_63: 1792792797
+      hero sprite not sword_64: -151269104
+      hero sprite not sword_65: 800269965
+      hero sprite not sword_66: -620743009
+      hero sprite not sword_67: -2011611084
+      hero sprite not sword_68: 929633072
+      hero sprite not sword_69: -1984367839
+      hero sprite not sword_7: 667448338
+      hero sprite not sword_70: 1696790628
+      hero sprite not sword_71: -1663407320
+      hero sprite not sword_72: 1872647702
+      hero sprite not sword_73: -246155821
+      hero sprite not sword_74: -8336476
+      hero sprite not sword_75: 481731651
+      hero sprite not sword_76: -1680835437
+      hero sprite not sword_77: -410930378
+      hero sprite not sword_78: -1900167337
+      hero sprite not sword_79: 1741747926
+      hero sprite not sword_8: -1765370115
+      hero sprite not sword_80: -1430276072
+      hero sprite not sword_81: -272676150
+      hero sprite not sword_82: -1354108510
+      hero sprite not sword_83: 1720015540
+      hero sprite not sword_84: -1987642343
+      hero sprite not sword_85: -1953417992
+      hero sprite not sword_86: 473941190
+      hero sprite not sword_87: -1375688126
+      hero sprite not sword_88: 1983211176
+      hero sprite not sword_89: -578009070
+      hero sprite not sword_9: -1371514524
+      hero sprite not sword_90: 535886111
+      hero sprite not sword_91: -1059780404
+      hero sprite not sword_92: -1738533813
+      hero sprite not sword_93: 15763167
+      hero sprite not sword_94: -1362039188
+      hero sprite not sword_95: -913226873
+      hero sprite not sword_96: 1471799266
+      hero sprite not sword_97: 1407996010
+      hero sprite not sword_98: -1948332574
+      hero sprite not sword_99: -1800010683
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
