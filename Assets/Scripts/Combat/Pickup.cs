@@ -2,14 +2,12 @@ using UnityEngine;
 
 public class Pickup : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject weaponPrefabToInstantiate; 
+    [SerializeField] private GameObject weaponPrefabToInstantiate; 
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            // Ottieni il PlayerAimController dal giocatore
             PlayerAimController playerAimController = other.GetComponent<PlayerAimController>();
             if (playerAimController == null)
             {
@@ -17,7 +15,6 @@ public class Pickup : MonoBehaviour
                 return;
             }
 
-            // Ottieni il FirePoint del Player
             Transform playerFirePoint = playerAimController.GetPlayerFirePoint();
             if (playerFirePoint == null)
             {
@@ -25,34 +22,41 @@ public class Pickup : MonoBehaviour
                 return;
             }
 
-           
             if (weaponPrefabToInstantiate != null)
             {
-                // Trova e distruggi tutte le armi (con componente Gun) già presenti sul player
-                Gun[] existingGuns = other.GetComponentsInChildren<Gun>();
-                foreach (Gun gun in existingGuns)
+               
+                var existingWeapons = other.GetComponentsInChildren<AbstractWeapon>();
+                foreach (var weapon in existingWeapons)
                 {
-                    Destroy(gun.gameObject); // Distruggi l'intero GameObject dell'arma precedente
+                    Destroy(weapon.gameObject);
                 }
+
                 
-                // Istanzia il prefab dell'arma come figlio del giocatore
                 GameObject instantiatedWeapon = Instantiate(weaponPrefabToInstantiate, other.transform);
-                instantiatedWeapon.transform.localPosition = Vector3.zero; // Posiziona l'arma al centro del giocatore
-                instantiatedWeapon.transform.localRotation = Quaternion.identity; // Nessuna rotazione aggiuntiva
+                instantiatedWeapon.transform.localPosition = Vector3.zero;
+                instantiatedWeapon.transform.localRotation = Quaternion.identity;
 
                 Debug.Log($"Il giocatore ha raccolto {weaponPrefabToInstantiate.name}.");
 
-                // Ottieni il componente Gun dall'arma appena istanziata
-                Gun equippedGun = instantiatedWeapon.GetComponent<Gun>();
-                if (equippedGun != null)
+                
+                var equippedWeapon = instantiatedWeapon.GetComponent<AbstractWeapon>();
+                if (equippedWeapon != null)
                 {
-                    // Assegna il FirePoint del Player all'arma equipaggiata
-                    equippedGun.SetFirePoint(playerFirePoint);
-                    Debug.Log($"FirePoint del Player assegnato all'arma {equippedGun.name}.");
+                    
+                    var setFirePointMethod = equippedWeapon.GetType().GetMethod("SetFirePoint");
+                    if (setFirePointMethod != null)
+                    {
+                        setFirePointMethod.Invoke(equippedWeapon, new object[] { playerFirePoint });
+                        Debug.Log($"FirePoint del Player assegnato all'arma {equippedWeapon.GetType().Name}.");
+                    }
+                    else
+                    {
+                        Debug.LogWarning("L'arma non implementa SetFirePoint.");
+                    }
                 }
                 else
                 {
-                    Debug.LogError("L'arma istanziata non ha un componente Gun!");
+                    Debug.LogError("L'arma istanziata non deriva da AbstractWeapon!");
                 }
             }
             else
@@ -60,7 +64,6 @@ public class Pickup : MonoBehaviour
                 Debug.LogWarning("Nessun prefab dell'arma assegnato al Pickup!");
             }
 
-            // Distrugge l'oggetto Pickup dopo essere stato raccolto
             Destroy(gameObject);
         }
     }
