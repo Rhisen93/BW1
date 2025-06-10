@@ -17,7 +17,8 @@ public class PlayerAnimation : MonoBehaviour
     [SerializeField]
     private float movementThreshold = 0.1f; 
 
-    private bool isMoving; // Nuova variabile per tenere traccia dello stato di movimento
+    private bool isMoving; // Variabile per tenere traccia dello stato di movimento
+    
 
     private void Awake()
     {
@@ -37,7 +38,7 @@ public class PlayerAnimation : MonoBehaviour
     {
         // Aggiorna lo stato di movimento all'inizio di Update
         isMoving = playerController.Direction.magnitude > movementThreshold;
-
+        
         // Gestione delle animazioni di movimento (Idle/Walk)
         HandleMovementAnimation();
 
@@ -58,12 +59,23 @@ public class PlayerAnimation : MonoBehaviour
         // Se il player si sta muovendo, usa la sua direzione di movimento per le animazioni di camminata
         if (isMoving)
         {
-            playerAnimator.SetFloat("MoveDirectionX", playerController.Direction.x);
-            playerAnimator.SetFloat("MoveDirectionY", playerController.Direction.y);
+            if (isMoving && playerController.isSprinting)
+            {
+                playerAnimator.SetBool("IsSprinting", playerController.isSprinting); //in questo caso sprinting è vero
+                playerAnimator.SetFloat("MoveDirectionX", playerController.Direction.x);
+                playerAnimator.SetFloat("MoveDirectionY", playerController.Direction.y);
+            }
+            else
+            {
+                playerAnimator.SetBool("IsSprinting", playerController.isSprinting); //in questo caso sprinting è falso
+                playerAnimator.SetFloat("MoveDirectionX", playerController.Direction.x);
+                playerAnimator.SetFloat("MoveDirectionY", playerController.Direction.y);
+            }
         }
         else
         {
             // Quando non si muove, resetta la direzione di movimento a zero
+            playerAnimator.SetBool("IsSprinting", false); 
             playerAnimator.SetFloat("MoveDirectionX", 0);
             playerAnimator.SetFloat("MoveDirectionY", 0);
         }
