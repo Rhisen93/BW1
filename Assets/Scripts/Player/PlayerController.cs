@@ -4,6 +4,8 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField]
     private float speed = 5f; // Velocità di movimento del giocatore
+    [SerializeField]
+    private float sprintMultiplier = 1.5f;
 
     private float horizontal;
     private float vertical;
@@ -12,6 +14,7 @@ public class PlayerController : MonoBehaviour
 
     // Proprietà pubblica per la direzione di movimento, accessibile in lettura
     public Vector2 Direction { get; private set; }
+    public bool isSprinting;
 
     // Awake viene chiamato quando l'istanza dello script viene caricata
     private void Awake()
@@ -48,18 +51,31 @@ public class PlayerController : MonoBehaviour
     {
         if (rb != null)
         {
-            // Se c'è input di movimento
-            if (Direction.magnitude > 0.1f)
+            if (Input.GetKey(KeyCode.LeftShift))
             {
-                // Imposta direttamente la velocità del Rigidbody nella direzione e con la velocità desiderata
+                if (Direction.magnitude > 0.1f)
+                {
+                    isSprinting = true;
+                    rb.velocity = Direction * (speed * sprintMultiplier);
+                }
+                else
+                {
+                    rb.velocity = Vector2.zero;
+                }
+            }
+            else if (Direction.magnitude > 0.1f)
+            {
+                isSprinting = false;
                 rb.velocity = Direction * speed;
             }
             else // Se non c'è input di movimento
             {
                 // Azzera la velocità del Rigidbody per fermare qualsiasi movimento residuo
                 // Il Linear Drag elevato sul Rigidbody2D garantirà che questo sia istantaneo.
+                isSprinting=false;
                 rb.velocity = Vector2.zero;
             }
+            
         }
     }
 
