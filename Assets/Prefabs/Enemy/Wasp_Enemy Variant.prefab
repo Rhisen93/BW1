@@ -123,5 +123,32 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6708941710157519763, guid: 52316675d9df5164dae98f47f81de2fb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6018936260925860579}
   m_SourcePrefab: {fileID: 100100000, guid: 52316675d9df5164dae98f47f81de2fb, type: 3}
+--- !u!1 &3072698658299365457 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6708941710157519763, guid: 52316675d9df5164dae98f47f81de2fb, type: 3}
+  m_PrefabInstance: {fileID: 8628503083736716226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6018936260925860579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3072698658299365457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d276d7203dfb8914eab9dd170ded7a1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normalSpeed: 2
+  chargeSpeed: 5
+  chargeRange: 6
+  explosionRadius: 1.5
+  damage: 40
+  explosionDelay: 0.2
+  Explosion: {fileID: 1647108853236550676, guid: f787946c0fca8014781b331ac613d6f8, type: 3}
