@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2009629044418690547}
   - component: {fileID: 1287130882854763914}
   - component: {fileID: -4890133495696696770}
+  - component: {fileID: -4376537536424767782}
   m_Layer: 5
   m_Name: Explosion
   m_TagString: Effects
@@ -119,3 +120,15 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_SortAtRoot: 0
+--- !u!114 &-4376537536424767782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647108853236550676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9341ac32435d749ae4b98498247717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
