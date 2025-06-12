@@ -49,4 +49,8 @@ public class LifeController : MonoBehaviour
     {
         return maxHealth;
     }
+    public void AddHealth(float BonusHp)
+    {
+        currentHealth += BonusHp;
+    }
 }
