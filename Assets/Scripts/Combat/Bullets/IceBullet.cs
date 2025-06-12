@@ -6,11 +6,6 @@ public class IceBullet : AbstractBullet
     [SerializeField] private float slowMultiplier = 0.5f;
     [SerializeField] private float effectChance = 0.1f;
 
-    private void Awake()
-    {
-        SetDamageType(DamageType.ICE);        
-    }
-
     private void Update()
     {
         Move();
@@ -55,9 +50,11 @@ public class IceBullet : AbstractBullet
     public override void LevelUp()
     {
         slowDuration += 1f;
-        slowMultiplier -= 0.1f; 
+        slowMultiplier -= 0.1f;
         effectChance += 0.05f;
         slowMultiplier = Mathf.Clamp(slowMultiplier, 0.1f, 1f);
         effectChance = Mathf.Clamp(effectChance, 0f, 1f);
     }
+
+    public override DamageType GetDamageType() => DamageType.ICE;
 }

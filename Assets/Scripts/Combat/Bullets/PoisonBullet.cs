@@ -6,11 +6,6 @@ public class PoisonBullet : AbstractBullet
     [SerializeField] private int poisonDamagePerSecond = 1;
     [SerializeField] private float effectChance = 0.1f;
 
-    private void Awake()
-    {
-        SetDamageType(DamageType.POISON);        
-    }
-
     private void Update()
     {
         Move();
@@ -59,5 +54,7 @@ public class PoisonBullet : AbstractBullet
         effectChance += 0.05f;
         effectChance = Mathf.Clamp(effectChance, 0f, 1f);
     }
+
+    public override DamageType GetDamageType() => DamageType.POISON;
 }
 

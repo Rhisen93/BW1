@@ -15,21 +15,23 @@ public class Pickup : MonoBehaviour
             Debug.LogError("PlayerController mancante sul player!");
             return;
         }
-        
+
         AbstractWeapon existingWeapon = other.GetComponentInChildren<AbstractWeapon>();
-                
+
+        // GESTIONE ARMA
         if (weaponPrefabToInstantiate != null)
         {
             string newWeaponName = weaponPrefabToInstantiate.name.Replace("(Clone)", "");
-            bool weaponAlreadyExists = existingWeapon != null && existingWeapon.GetType() == weaponPrefabToInstantiate.GetComponent<AbstractWeapon>().GetType();
+            bool weaponAlreadyExists = existingWeapon != null &&
+                                       existingWeapon.GetType() == weaponPrefabToInstantiate.GetComponent<AbstractWeapon>().GetType();
 
             if (weaponAlreadyExists)
             {
                 existingWeapon.LevelUp();
-                Debug.Log("LevelUp dell'arma attuale eseguito.");
+                Debug.Log($"LevelUp dell'arma {newWeaponName} eseguito.");
             }
             else
-            {                
+            {
                 GameObject weaponGO = Instantiate(weaponPrefabToInstantiate, other.transform);
                 weaponGO.transform.localPosition = Vector3.zero;
 
@@ -37,76 +39,25 @@ public class Pickup : MonoBehaviour
                 if (newWeapon != null)
                 {
                     newWeapon.SetPlayerController(playerController);
-                                        
+
                     if (bulletPrefabToAssign != null)
-                    {
                         newWeapon.SetBulletPrefab(bulletPrefabToAssign);
-                    }
                 }
+
+                Debug.Log($"Nuova arma {newWeaponName} raccolta.");
             }
         }
 
-        if (bulletPrefabToAssign != null && existingWeapon != null)
+        // GESTIONE BULLET
+        if (bulletPrefabToAssign != null)
         {
-            GameObject currentBulletPrefab = existingWeapon.GetCurrentBulletPrefab();
-
-            if (currentBulletPrefab != null)
+            AbstractWeapon[] allWeapons = other.GetComponentsInChildren<AbstractWeapon>(true); 
+            foreach (var weapon in allWeapons)
             {
-                DamageType newType = bulletPrefabToAssign.GetComponent<AbstractBullet>().GetDamageType();
-
-                bool hasEffect = currentBulletPrefab.GetComponent(newType switch
-                {
-                    DamageType.ICE => typeof(IceBullet),
-                    DamageType.POISON => typeof(PoisonBullet),
-                    _ => null
-                }) != null;
-
-                if (hasEffect)
-                {
-                    AbstractBullet bulletEffect = (AbstractBullet)currentBulletPrefab.GetComponent(newType switch
-                    {
-                        DamageType.ICE => typeof(IceBullet),
-                        DamageType.POISON => typeof(PoisonBullet),
-                        _ => null
-                    });
-
-                    bulletEffect?.LevelUp();
-                    Debug.Log($"LevelUp dell'effetto {newType} sul bullet attivo.");
-                }
-                else
-                {
-                    GameObject newBullet = Instantiate(currentBulletPrefab);
-                    Destroy(newBullet.GetComponent<AbstractBullet>()); 
-
-                    AbstractBullet baseScript = currentBulletPrefab.GetComponent<AbstractBullet>();
-                    AbstractBullet newBaseScript = newBullet.AddComponent(baseScript.GetType()) as AbstractBullet;
-
-                    newBaseScript.SetDamage(baseScript.GetDamage());
-                    newBaseScript.SetSpeed(baseScript.GetSpeed());
-                    newBaseScript.SetLifeTime(baseScript.GetLifeTime());
-                    newBaseScript.SetDamageType(baseScript.GetDamageType());
-
-
-                    if (newType == DamageType.ICE)
-                    {
-                        newBullet.AddComponent<IceBullet>();
-                    }
-                    else if (newType == DamageType.POISON)
-                    {
-                        newBullet.AddComponent<PoisonBullet>();
-                    }
-
-                    existingWeapon.SetBulletPrefab(newBullet);
-                    Debug.Log($"Aggiunto effetto {newType} al bullet attivo.");
-                }
-            }
-            else
-            {
-                existingWeapon.SetBulletPrefab(bulletPrefabToAssign);
-                Debug.Log("Bullet iniziale assegnato.");
+                weapon.SetBulletPrefab(bulletPrefabToAssign);
+                Debug.Log($"[PICKUP] Bullet {bulletPrefabToAssign.name} assegnato a {weapon.name}");
             }
         }
-
 
         Destroy(gameObject);
     }

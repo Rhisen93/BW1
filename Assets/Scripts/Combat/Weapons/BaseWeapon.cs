@@ -13,7 +13,11 @@ public class BaseWeapon : AbstractWeapon
 
     public override void Shoot()
     {
-        if (GetCurrentBulletPrefab() == null || firePoint == null) return;
+        if (GetCurrentBulletPrefab() == null || firePoint == null)
+        {
+            Debug.LogWarning("Nessun proiettile o firePoint non impostato!");
+            return;
+        }
 
         GameObject bulletGO = Instantiate(GetCurrentBulletPrefab(), firePoint.position, Quaternion.identity);
         AbstractBullet bullet = bulletGO.GetComponent<AbstractBullet>();
@@ -21,12 +25,14 @@ public class BaseWeapon : AbstractWeapon
         if (bullet != null)
         {
             bullet.SetDirection(shootDirection);
+            Debug.Log($"Sparo bullet {bullet.name} in direzione {shootDirection}");
         }
         else
         {
             Debug.LogError("Il prefab del proiettile non ha uno script AbstractBullet!");
         }
     }
+
 
     protected override void SetShootDirection(Vector2 newDirection)
     {

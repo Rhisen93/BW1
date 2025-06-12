@@ -18,7 +18,7 @@ public abstract class AbstractBullet : MonoBehaviour
     public float GetSpeed() => _speed;
     public int GetDamage() => _damage;
     public float GetLifeTime() => _lifeTime;
-    public DamageType GetDamageType() => _damageType;
+    public abstract DamageType GetDamageType();
 
 
     public void SetSpeed(float speed) => _speed = speed;
