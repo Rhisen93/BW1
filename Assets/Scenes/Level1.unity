@@ -16667,7 +16667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41bc8091a42e4564cb0657600930eefc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 1000000
   scoreValue: 10
 --- !u!95 &1168688280
 Animator:
@@ -17182,10 +17182,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2609386432813319335, guid: 95c7315c6d815824f93f14d853fdd5ab, type: 3}
-      propertyPath: bulletPrefabToAssign
-      value: 
-      objectReference: {fileID: 5419759267644450686, guid: 3b58132b16011814ab10e6c656360489, type: 3}
     - target: {fileID: 4783708690522963001, guid: 95c7315c6d815824f93f14d853fdd5ab, type: 3}
       propertyPath: m_Name
       value: PickupPoint (Base)

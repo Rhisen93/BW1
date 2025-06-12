@@ -5,12 +5,14 @@ public class LifeController : MonoBehaviour
     [SerializeField]
     private float maxHealth = 100f;
     private float currentHealth;
+    EnemyDrop drop;
 
     [SerializeField]
     private int scoreValue = 10; // Punteggio da aggiungere quando il nemico muore
     private void Awake()
     {
         currentHealth = maxHealth;
+        drop = GetComponent<EnemyDrop>();
     }
 
 
@@ -31,9 +33,9 @@ public class LifeController : MonoBehaviour
     {
         Debug.Log($"{gameObject.name} è morto!");
         GameManager.Instance.AddScore(scoreValue);
+        drop.Drop(gameObject.transform.position);
         // Distrugge l'intero GameObject a cui è attaccato questo script
         Destroy(gameObject);
-
         // Puoi aggiungere qui effetti di morte (es. animazioni, particelle, suono)
         // Oppure logica per gestire la morte del giocatore 
     }
