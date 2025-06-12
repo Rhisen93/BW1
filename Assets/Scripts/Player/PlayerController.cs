@@ -3,28 +3,36 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField]
-    private float speed = 5f; // Velocità di movimento del giocatore
+    private float speed = 5f; 
     [SerializeField]
     private float sprintMultiplier = 1.5f;
+    public Transform FirePoint { get; private set; }
 
     private float horizontal;
     private float vertical;
 
-    private Rigidbody2D rb; // Riferimento al componente Rigidbody2D del giocatore
+    private Rigidbody2D rb; 
 
-    // Proprietà pubblica per la direzione di movimento, accessibile in lettura
+    
     public Vector2 Direction { get; private set; }
     public bool isSprinting;
 
-    // Awake viene chiamato quando l'istanza dello script viene caricata
+    
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        FirePoint = transform.Find("FirePoint");
+
         if (rb == null)
         {
             Debug.LogError("PlayerController richiede un componente Rigidbody2D sullo stesso GameObject.");
         }
-        // Congela la rotazione Z per un player 2D
+
+        if (FirePoint == null)
+        {
+            Debug.LogError("FirePoint non trovato nel Player!");
+        }
+
         if (rb != null)
         {
             rb.freezeRotation = true;

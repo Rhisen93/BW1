@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1404960473082144559}
   - component: {fileID: 2849753852733218078}
   m_Layer: 0
-  m_Name: WeaponPickup
+  m_Name: PickupPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -133,4 +133,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68ded8ad3f0b499428489f1348f076f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponPrefabToInstantiate: {fileID: 0}
+  weaponPrefabToInstantiate: {fileID: 1216826863884871866, guid: a8b0e6432eb324648b5ad6576b54e670, type: 3}
+  bulletPrefabToAssign: {fileID: 5419759267644450686, guid: 3b58132b16011814ab10e6c656360489, type: 3}

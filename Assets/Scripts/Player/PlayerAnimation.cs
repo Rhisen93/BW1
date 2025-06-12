@@ -31,7 +31,7 @@ public class PlayerAnimation : MonoBehaviour
         if (playerAnimator == null) Debug.LogError("PlayerAnimation: Animator non trovato.");
         if (playerSpriteRenderer == null) Debug.LogError("PlayerAnimation: SpriteRenderer non trovato.");
         if (playerController == null) Debug.LogError("PlayerAnimation: PlayerController non trovato.");
-        if (playerAimController == null) Debug.LogError("PlayerAnimation: PlayerAimController non trovato.");
+        //if (playerAimController == null) Debug.LogError("PlayerAnimation: PlayerAimController non trovato.");
     }
 
     private void Update()

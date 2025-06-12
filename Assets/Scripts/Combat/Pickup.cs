@@ -2,69 +2,56 @@ using UnityEngine;
 
 public class Pickup : MonoBehaviour
 {
-    [SerializeField] private GameObject weaponPrefabToInstantiate; 
+    [SerializeField] private GameObject weaponPrefabToInstantiate;
+    [SerializeField] private GameObject bulletPrefabToAssign;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (!other.CompareTag("Player")) return;
+
+        PlayerController playerController = other.GetComponent<PlayerController>();
+        if (playerController == null)
         {
-            PlayerAimController playerAimController = other.GetComponent<PlayerAimController>();
-            if (playerAimController == null)
-            {
-                Debug.LogError("Il Player non ha un componente PlayerAimController! Impossibile equipaggiare l'arma.");
-                return;
-            }
-
-            Transform playerFirePoint = playerAimController.GetPlayerFirePoint();
-            if (playerFirePoint == null)
-            {
-                Debug.LogError("PlayerAimController non ha un FirePoint assegnato!");
-                return;
-            }
-
-            if (weaponPrefabToInstantiate != null)
-            {
-               
-                var existingWeapons = other.GetComponentsInChildren<AbstractWeapon>();
-                foreach (var weapon in existingWeapons)
-                {
-                    Destroy(weapon.gameObject);
-                }
-
+            Debug.LogError("PlayerController mancante sul player!");
+            return;
+        }
+        
+        AbstractWeapon existingWeapon = other.GetComponentInChildren<AbstractWeapon>();
                 
-                GameObject instantiatedWeapon = Instantiate(weaponPrefabToInstantiate, other.transform);
-                instantiatedWeapon.transform.localPosition = Vector3.zero;
-                instantiatedWeapon.transform.localRotation = Quaternion.identity;
+        if (weaponPrefabToInstantiate != null)
+        {
+            string newWeaponName = weaponPrefabToInstantiate.name.Replace("(Clone)", "");
+            bool weaponAlreadyExists = existingWeapon != null && existingWeapon.GetType() == weaponPrefabToInstantiate.GetComponent<AbstractWeapon>().GetType();
 
-                Debug.Log($"Il giocatore ha raccolto {weaponPrefabToInstantiate.name}.");
-
-                
-                var equippedWeapon = instantiatedWeapon.GetComponent<AbstractWeapon>();
-                if (equippedWeapon != null)
-                {
-                    
-                    var setFirePointMethod = equippedWeapon.GetType().GetMethod("SetFirePoint");
-                    if (setFirePointMethod != null)
-                    {
-                        setFirePointMethod.Invoke(equippedWeapon, new object[] { playerFirePoint });
-                        Debug.Log($"FirePoint del Player assegnato all'arma {equippedWeapon.GetType().Name}.");
-                    }
-                    else
-                    {
-                        Debug.LogWarning("L'arma non implementa SetFirePoint.");
-                    }
-                }
-                else
-                {
-                    Debug.LogError("L'arma istanziata non deriva da AbstractWeapon!");
-                }
+            if (weaponAlreadyExists)
+            {
+                existingWeapon.LevelUp();
+                Debug.Log("LevelUp dell'arma attuale eseguito.");
             }
             else
-            {
-                Debug.LogWarning("Nessun prefab dell'arma assegnato al Pickup!");
-            }
+            {                
+                GameObject weaponGO = Instantiate(weaponPrefabToInstantiate, other.transform);
+                weaponGO.transform.localPosition = Vector3.zero;
 
-            Destroy(gameObject);
+                AbstractWeapon newWeapon = weaponGO.GetComponent<AbstractWeapon>();
+                if (newWeapon != null)
+                {
+                    newWeapon.SetPlayerController(playerController);
+                                        
+                    if (bulletPrefabToAssign != null)
+                    {
+                        newWeapon.SetBulletPrefab(bulletPrefabToAssign);
+                    }
+                }
+            }
         }
+        
+        if (bulletPrefabToAssign != null && existingWeapon != null)
+        {
+            existingWeapon.SetBulletPrefab(bulletPrefabToAssign);
+            Debug.Log("Bullet aggiornato all'arma attiva.");
+        }
+
+        Destroy(gameObject);
     }
 }

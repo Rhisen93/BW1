@@ -2,44 +2,49 @@ using UnityEngine;
 
 public class BaseWeapon : AbstractWeapon
 {
-    [SerializeField] private GameObject bulletPrefab;
-    [SerializeField] private Transform firePoint;
-
-    [SerializeField] private float bulletSpeed = 10f;
-    [SerializeField] private float bulletDamage = 10f;
-    [SerializeField] private float bulletLifeTime = 3f;
-    [SerializeField] private DamageType bulletDamageType = DamageType.FIRE;
+    [SerializeField] private GameObject bulletPrefab;        
 
     private Vector2 shootDirection = Vector2.right;
 
-    private void Update()
+    public void Awake()
     {
-        if (CanShoot())
+        Init(2f, 0, 0);
+
+        if (CurrentBulletPrefab == null && bulletPrefab != null)
         {
-            Shoot();
-            ResetAttackTimer(); 
+            CurrentBulletPrefab = bulletPrefab;
         }
     }
 
     public override void Shoot()
     {
-        if (bulletPrefab == null || firePoint == null) return;
+        
+        if (CurrentBulletPrefab == null || firePoint == null) return;
 
-        GameObject bulletGO = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
-        BaseBullet bullet = bulletGO.GetComponent<BaseBullet>();
-        bullet.Init(bulletSpeed, bulletDamage, bulletLifeTime, bulletDamageType, shootDirection);
+        GameObject bulletGO = Instantiate(CurrentBulletPrefab, firePoint.position, Quaternion.identity);
+        AbstractBullet bullet = bulletGO.GetComponent<AbstractBullet>();
+        bullet.SetDirection(shootDirection);
+
+        if (bullet == null)
+        {
+            Debug.LogError("Il prefab del proiettile non ha uno script AbstractBullet!");
+        }
+        else
+        {
+            bullet.SetDirection(shootDirection);
+        }
     }
 
-    public void SetShootDirection(Vector2 newDirection)
+    protected override void SetShootDirection(Vector2 newDirection)
     {
         if (newDirection != Vector2.zero)
         {
-            shootDirection = newDirection.normalized;
+            shootDirection = newDirection.normalized;            
         }
     }
 
     public override void LevelUp()
     {
-        // Potenziare danni e attacco
+        
     }
 }

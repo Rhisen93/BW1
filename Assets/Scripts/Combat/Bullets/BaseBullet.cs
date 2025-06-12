@@ -1,7 +1,15 @@
 using UnityEngine;
 
 public class BaseBullet : AbstractBullet
-{
+{  
+    
+
+    public void Awake()
+    {        
+        Init(10f, 5, 1f, DamageType.BASE);        
+        Destroy(gameObject, LifeTime);
+    }
+
     private void Update()
     {
         Move();

@@ -2,49 +2,31 @@ using UnityEngine;
 
 public abstract class AbstractBullet : MonoBehaviour
 {
-    private float _speed;
-    private float _damage;
-    private float _lifeTime;
-    private DamageType _damageType;
+    protected float Speed { get; set; }
+    protected int Damage { get; set; }
+    protected float LifeTime { get; set; }
+    protected DamageType DamageType { get; private set; }
+
     private Vector2 _direction;
-    
-    public void Init(float speed, float damage, float lifeTime, DamageType damageType, Vector2 initialDirection)
+
+    public void Init(float speed, int damage, float lifetime, DamageType damageType)
     {
-        _speed = speed;
-        _damage = damage;
-        _lifeTime = lifeTime;
-        _damageType = damageType;
-        SetDirection(initialDirection);
-
-        Destroy(gameObject, _lifeTime); 
+        Speed = speed;
+        Damage = damage;
+        LifeTime = lifetime;
+        DamageType = damageType;
     }
-
-    public float Speed
-    {
-        get => _speed;
-        protected set => _speed = value;
-    }
-
-    public float Damage
-    {
-        get => _damage;
-        protected set => _damage = value;
-    }
-
-    public float LifeTime
-    {
-        get => _lifeTime;
-        protected set => _lifeTime = value;
-    }
-
-    public DamageType DamageType => _damageType;
-
     public void SetDirection(Vector2 newDirection)
     {
         _direction = newDirection.normalized;
     }
 
     public Vector2 GetDirection() => _direction;
-    
+
+    public void SetDamageType(DamageType type)
+    {
+        DamageType = type;
+    }
+
     public abstract void Move();
 }
