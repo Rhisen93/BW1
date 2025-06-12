@@ -13,17 +13,20 @@ public class SniperWeapon : AbstractWeapon
     private void Awake()
     {
         Init(0.5f, 0, 0);
-        SetBulletPrefab(bulletPrefab);
+        if (GetCurrentBulletPrefab() == null)
+            SetBulletPrefab(bulletPrefab);
+
         mainCamera = Camera.main;
     }
 
     public override void Shoot()
     {
-        if (GetCurrentBulletPrefab() == null || firePoint == null || mainCamera == null) return;
+        GameObject bulletPrefab = GetCurrentBulletPrefab();
+        if (bulletPrefab == null || firePoint == null || mainCamera == null) return;
 
         SetShootDirection(Vector2.zero);
 
-        GameObject bulletGO = Instantiate(GetCurrentBulletPrefab(), firePoint.position, Quaternion.identity);
+        GameObject bulletGO = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
         AbstractBullet bullet = bulletGO.GetComponent<AbstractBullet>();
 
         if (bullet != null)
@@ -33,6 +36,7 @@ public class SniperWeapon : AbstractWeapon
             bullet.SetLifeTime(customLifeTime);
         }
     }
+
 
     protected override void SetShootDirection(Vector2 unused)
     {

@@ -12,12 +12,14 @@ public class SpreadWeapon : AbstractWeapon
     private void Awake()
     {
         Init(1f, 0, 0);
-        SetBulletPrefab(bulletPrefab);
+        if (GetCurrentBulletPrefab() == null)
+            SetBulletPrefab(bulletPrefab);
     }
 
     public override void Shoot()
     {
-        if (GetCurrentBulletPrefab() == null || firePoint == null || shootDirection == Vector2.zero) return;
+        GameObject bulletPrefab = GetCurrentBulletPrefab();
+        if (bulletPrefab == null || firePoint == null || shootDirection == Vector2.zero) return;
 
         float startAngle = -spreadAngle / 2f;
         float angleStep = spreadAngle / (bulletCount - 1);
@@ -27,7 +29,7 @@ public class SpreadWeapon : AbstractWeapon
             float angle = startAngle + angleStep * i;
             Vector2 spreadDir = Quaternion.Euler(0f, 0f, angle) * shootDirection;
 
-            GameObject bulletGO = Instantiate(GetCurrentBulletPrefab(), firePoint.position, Quaternion.identity);
+            GameObject bulletGO = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
             AbstractBullet bullet = bulletGO.GetComponent<AbstractBullet>();
 
             if (bullet != null)
@@ -37,6 +39,7 @@ public class SpreadWeapon : AbstractWeapon
             }
         }
     }
+
 
     protected override void SetShootDirection(Vector2 newDirection)
     {

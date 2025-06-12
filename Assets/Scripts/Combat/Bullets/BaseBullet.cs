@@ -2,11 +2,10 @@ using UnityEngine;
 
 public class BaseBullet : AbstractBullet
 {
-    public void Awake()
+    private void Start()
     {
-        SetDamageType(DamageType.BASE);        
+        SetLifeTime(GetLifeTime()); 
     }
-
 
     private void Update()
     {
@@ -36,12 +35,15 @@ public class BaseBullet : AbstractBullet
     }
     public override void ApplyEffect(GameObject target)
     {
-        
+
     }
 
     public override void LevelUp()
     {
-        SetDamage(Damage + 2);      
-        SetSpeed(Speed + 1f);       
+        SetDamage(Damage + 2);
+        SetSpeed(Speed + 1f);
     }
+
+    public override DamageType GetDamageType() => DamageType.BASE;
+
 }
