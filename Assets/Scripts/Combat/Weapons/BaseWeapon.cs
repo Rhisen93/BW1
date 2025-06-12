@@ -2,36 +2,29 @@ using UnityEngine;
 
 public class BaseWeapon : AbstractWeapon
 {
-    [SerializeField] private GameObject bulletPrefab;        
-
+    [SerializeField] private GameObject bulletPrefab;
     private Vector2 shootDirection = Vector2.right;
 
-    public void Awake()
+    private void Awake()
     {
         Init(2f, 0, 0);
-
-        if (CurrentBulletPrefab == null && bulletPrefab != null)
-        {
-            CurrentBulletPrefab = bulletPrefab;
-        }
+        SetBulletPrefab(bulletPrefab);
     }
 
     public override void Shoot()
     {
-        
-        if (CurrentBulletPrefab == null || firePoint == null) return;
+        if (GetCurrentBulletPrefab() == null || firePoint == null) return;
 
-        GameObject bulletGO = Instantiate(CurrentBulletPrefab, firePoint.position, Quaternion.identity);
+        GameObject bulletGO = Instantiate(GetCurrentBulletPrefab(), firePoint.position, Quaternion.identity);
         AbstractBullet bullet = bulletGO.GetComponent<AbstractBullet>();
-        bullet.SetDirection(shootDirection);
 
-        if (bullet == null)
+        if (bullet != null)
         {
-            Debug.LogError("Il prefab del proiettile non ha uno script AbstractBullet!");
+            bullet.SetDirection(shootDirection);
         }
         else
         {
-            bullet.SetDirection(shootDirection);
+            Debug.LogError("Il prefab del proiettile non ha uno script AbstractBullet!");
         }
     }
 
@@ -39,7 +32,7 @@ public class BaseWeapon : AbstractWeapon
     {
         if (newDirection != Vector2.zero)
         {
-            shootDirection = newDirection.normalized;            
+            shootDirection = newDirection.normalized;
         }
     }
 

@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     public Vector2 Direction { get; private set; }
     public bool isSprinting;
 
-    
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -37,6 +37,12 @@ public class PlayerController : MonoBehaviour
         {
             rb.freezeRotation = true;
         }
+    }
+    public Vector2 GetMouseDirection()
+    {
+        Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 direction = (mouseWorldPosition - transform.position).normalized;
+        return direction;
     }
 
     private void Update()

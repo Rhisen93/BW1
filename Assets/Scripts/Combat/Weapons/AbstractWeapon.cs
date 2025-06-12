@@ -2,24 +2,33 @@
 
 public abstract class AbstractWeapon : MonoBehaviour
 {
-    protected float AttackRate { get; set; }
-    protected int DamageBuff { get; set; }
-    protected float AttackRateBuff { get; set; }
+    private float _attackRate;
+    private int _damageBuff;
+    private float _attackRateBuff;
 
     private float _lastAttackTime;
 
     protected PlayerController playerController;
-    protected GameObject CurrentBulletPrefab { get; set; }
+    private GameObject _currentBulletPrefab;
 
     [SerializeField] protected Transform firePoint;
     [SerializeField] protected float firePointDistance = 0.1f;
 
     public void Init(float attackRate, int damageBuff, float attackRateBuff)
     {
-        AttackRate = attackRate;
-        DamageBuff = damageBuff;
-        AttackRateBuff = attackRateBuff;
+        _attackRate = attackRate;
+        _damageBuff = damageBuff;
+        _attackRateBuff = attackRateBuff;
     }
+
+    public float GetAttackRate() => _attackRate;
+    public void SetAttackRate(float value) => _attackRate = value;
+
+    public int GetDamageBuff() => _damageBuff;
+    public void SetDamageBuff(int value) => _damageBuff = value;
+
+    public float GetAttackRateBuff() => _attackRateBuff;
+    public void SetAttackRateBuff(float value) => _attackRateBuff = value;
 
     public void SetPlayerController(PlayerController controller)
     {
@@ -42,14 +51,11 @@ public abstract class AbstractWeapon : MonoBehaviour
     {
         if (newBullet != null)
         {
-            CurrentBulletPrefab = newBullet;
+            _currentBulletPrefab = newBullet;
         }
     }
 
-    public GameObject GetCurrentBulletPrefab()
-    {
-        return CurrentBulletPrefab;
-    }
+    public GameObject GetCurrentBulletPrefab() => _currentBulletPrefab;
 
     protected virtual void Update()
     {
@@ -87,7 +93,7 @@ public abstract class AbstractWeapon : MonoBehaviour
 
     protected bool CanShoot()
     {
-        return Time.time >= _lastAttackTime + 1f / AttackRate;
+        return Time.time >= _lastAttackTime + 1f / _attackRate;
     }
 
     protected void ResetAttackTimer()

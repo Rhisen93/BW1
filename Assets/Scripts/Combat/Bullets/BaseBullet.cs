@@ -1,14 +1,12 @@
 using UnityEngine;
 
 public class BaseBullet : AbstractBullet
-{  
-    
-
+{
     public void Awake()
-    {        
-        Init(10f, 5, 1f, DamageType.BASE);        
-        Destroy(gameObject, LifeTime);
+    {
+        SetDamageType(DamageType.BASE);        
     }
+
 
     private void Update()
     {
@@ -35,5 +33,15 @@ public class BaseBullet : AbstractBullet
         {
             Destroy(gameObject);
         }
+    }
+    public override void ApplyEffect(GameObject target)
+    {
+        
+    }
+
+    public override void LevelUp()
+    {
+        SetDamage(Damage + 2);      
+        SetSpeed(Speed + 1f);       
     }
 }

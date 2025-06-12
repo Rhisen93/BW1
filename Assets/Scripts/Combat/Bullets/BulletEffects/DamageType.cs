@@ -1,7 +1,6 @@
 public enum DamageType
 {
     BASE,
-    POISON,
-    FIRE,
+    POISON,    
     ICE
 }

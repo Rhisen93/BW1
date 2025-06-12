@@ -45,12 +45,68 @@ public class Pickup : MonoBehaviour
                 }
             }
         }
-        
+
         if (bulletPrefabToAssign != null && existingWeapon != null)
         {
-            existingWeapon.SetBulletPrefab(bulletPrefabToAssign);
-            Debug.Log("Bullet aggiornato all'arma attiva.");
+            GameObject currentBulletPrefab = existingWeapon.GetCurrentBulletPrefab();
+
+            if (currentBulletPrefab != null)
+            {
+                DamageType newType = bulletPrefabToAssign.GetComponent<AbstractBullet>().GetDamageType();
+
+                bool hasEffect = currentBulletPrefab.GetComponent(newType switch
+                {
+                    DamageType.ICE => typeof(IceBullet),
+                    DamageType.POISON => typeof(PoisonBullet),
+                    _ => null
+                }) != null;
+
+                if (hasEffect)
+                {
+                    AbstractBullet bulletEffect = (AbstractBullet)currentBulletPrefab.GetComponent(newType switch
+                    {
+                        DamageType.ICE => typeof(IceBullet),
+                        DamageType.POISON => typeof(PoisonBullet),
+                        _ => null
+                    });
+
+                    bulletEffect?.LevelUp();
+                    Debug.Log($"LevelUp dell'effetto {newType} sul bullet attivo.");
+                }
+                else
+                {
+                    GameObject newBullet = Instantiate(currentBulletPrefab);
+                    Destroy(newBullet.GetComponent<AbstractBullet>()); 
+
+                    AbstractBullet baseScript = currentBulletPrefab.GetComponent<AbstractBullet>();
+                    AbstractBullet newBaseScript = newBullet.AddComponent(baseScript.GetType()) as AbstractBullet;
+
+                    newBaseScript.SetDamage(baseScript.GetDamage());
+                    newBaseScript.SetSpeed(baseScript.GetSpeed());
+                    newBaseScript.SetLifeTime(baseScript.GetLifeTime());
+                    newBaseScript.SetDamageType(baseScript.GetDamageType());
+
+
+                    if (newType == DamageType.ICE)
+                    {
+                        newBullet.AddComponent<IceBullet>();
+                    }
+                    else if (newType == DamageType.POISON)
+                    {
+                        newBullet.AddComponent<PoisonBullet>();
+                    }
+
+                    existingWeapon.SetBulletPrefab(newBullet);
+                    Debug.Log($"Aggiunto effetto {newType} al bullet attivo.");
+                }
+            }
+            else
+            {
+                existingWeapon.SetBulletPrefab(bulletPrefabToAssign);
+                Debug.Log("Bullet iniziale assegnato.");
+            }
         }
+
 
         Destroy(gameObject);
     }
