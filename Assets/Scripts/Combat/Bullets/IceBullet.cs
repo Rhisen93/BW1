@@ -51,7 +51,7 @@ public class IceBullet : AbstractBullet
                 VisualEffectHandler handler = target.GetComponent<VisualEffectHandler>();
                 if (handler != null)
                 {
-                    handler.FlashSprite(new Color(0.5f, 0.8f, 1f), 0.2f); 
+                    handler.FlashSprite(new Color(0.353f, 0.796f, 0.992f), 0.4f); 
                 }
             }
         }

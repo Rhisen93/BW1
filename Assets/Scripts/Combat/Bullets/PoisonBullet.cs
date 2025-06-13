@@ -51,7 +51,7 @@ public class PoisonBullet : AbstractBullet
                 VisualEffectHandler handler = target.GetComponent<VisualEffectHandler>();
                 if (handler != null)
                 {
-                    handler.FlashSprite(new Color(0.3f, 1f, 0.3f), 0.2f);
+                    handler.FlashSprite(new Color(0.231f, 0.482f, 0.365f), 0.4f);
                 }
             }
         }
