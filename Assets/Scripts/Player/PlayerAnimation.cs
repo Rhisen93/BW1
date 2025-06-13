@@ -10,7 +10,7 @@ public class PlayerAnimation : MonoBehaviour
     
     // Riferimenti ad altri script sul Player
     private PlayerController playerController;
-    private PlayerAimController playerAimController;
+    private PlayerAimController playerAimController; // Potrebbe non servire più per il flip, ma lo lasciamo per altri scopi
 
     [Header("Animation Settings")]
     [Tooltip("La soglia minima di movimento per attivare l'animazione di camminata.")]
@@ -26,12 +26,11 @@ public class PlayerAnimation : MonoBehaviour
         if (playerSpriteRenderer == null) playerSpriteRenderer = GetComponent<SpriteRenderer>();
 
         playerController = GetComponent<PlayerController>();
-        playerAimController = GetComponent<PlayerAimController>();
+        playerAimController = GetComponent<PlayerAimController>(); // Ancora utile per l'aim, ma non per il flip
 
         if (playerAnimator == null) Debug.LogError("PlayerAnimation: Animator non trovato.");
         if (playerSpriteRenderer == null) Debug.LogError("PlayerAnimation: SpriteRenderer non trovato.");
         if (playerController == null) Debug.LogError("PlayerAnimation: PlayerController non trovato.");
-        //if (playerAimController == null) Debug.LogError("PlayerAnimation: PlayerAimController non trovato.");
     }
 
     private void Update()
@@ -39,87 +38,52 @@ public class PlayerAnimation : MonoBehaviour
         // Aggiorna lo stato di movimento all'inizio di Update
         isMoving = playerController.Direction.magnitude > movementThreshold;
         
-        // Gestione delle animazioni di movimento (Idle/Walk)
+
         HandleMovementAnimation();
 
-        // Gestione dell'orientamento del corpo e del flip dello sprite
         HandleSpriteOrientationAndFlip(); 
     }
 
-    /// <summary>
     /// Controlla se il giocatore si sta muovendo e imposta il parametro 'IsWalking' nell'Animator.
     /// Imposta anche i parametri di direzione di movimento per il Walk Blend Tree.
-    /// </summary>
     private void HandleMovementAnimation()
     {
         if (playerAnimator == null || playerController == null) return;
         
         playerAnimator.SetBool("IsWalking", isMoving);
 
-        // Se il player si sta muovendo, usa la sua direzione di movimento per le animazioni di camminata
-        if (isMoving)
-        {
-            if (isMoving && playerController.isSprinting)
-            {
-                playerAnimator.SetBool("IsSprinting", playerController.isSprinting); //in questo caso sprinting è vero
-                playerAnimator.SetFloat("MoveDirectionX", playerController.Direction.x);
-                playerAnimator.SetFloat("MoveDirectionY", playerController.Direction.y);
-            }
-            else
-            {
-                playerAnimator.SetBool("IsSprinting", playerController.isSprinting); //in questo caso sprinting è falso
-                playerAnimator.SetFloat("MoveDirectionX", playerController.Direction.x);
-                playerAnimator.SetFloat("MoveDirectionY", playerController.Direction.y);
-            }
-        }
-        else
-        {
-            // Quando non si muove, resetta la direzione di movimento a zero
-            playerAnimator.SetBool("IsSprinting", false); 
-            playerAnimator.SetFloat("MoveDirectionX", 0);
-            playerAnimator.SetFloat("MoveDirectionY", 0);
-        }
+        // La gestione di IsSprinting può essere semplificata se è solo un flag
+        playerAnimator.SetBool("IsSprinting", playerController.isSprinting); 
+
+        // I parametri MoveDirectionX/Y sono sempre aggiornati in base alla direzione di movimento
+        // sia in camminata che in corsa
+        playerAnimator.SetFloat("MoveDirectionX", playerController.Direction.x);
+        playerAnimator.SetFloat("MoveDirectionY", playerController.Direction.y);
     }
 
-    /// <summary>
-    /// Gestisce l'orientamento dello sprite (flipX) basandosi sulla direzione di movimento o del mouse.
-    /// Imposta anche i parametri 'LookDirectionX/Y' per l'animazione di Idle.
-    /// </summary>
+    /// Gestisce l'orientamento dello sprite (flipX) basandosi *unicamente* sulla direzione di movimento.
+    /// Imposta anche i parametri 'LookDirectionX/Y' per l'animazione di Idle (che ora seguiranno il movimento).
     private void HandleSpriteOrientationAndFlip()
     {
-        if (playerSpriteRenderer == null || playerAimController == null || playerAnimator == null) return;
+        if (playerSpriteRenderer == null || playerAnimator == null) return; // Non serve più playerAimController per il flip
 
-        Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mouseWorldPosition.z = transform.position.z; 
-        
-        Vector2 directionToMouse = (mouseWorldPosition - transform.position).normalized;
+        // Il flipX dello sprite ora dipende SOLO dalla direzione di movimento orizzontale
+        float horizontalFlipDirection = playerController.Direction.x;
 
-        // I parametri LookDirectionX/Y sono sempre aggiornati in base al mouse per l'Idle Blend Tree
-        playerAnimator.SetFloat("LookDirectionX", directionToMouse.x);
-        playerAnimator.SetFloat("LookDirectionY", directionToMouse.y);
-
-        // *** NUOVA LOGICA PER IL FLIP X ***
-        float horizontalFlipDirection = 0;
-
-        if (isMoving) // Se il player si sta muovendo
-        {
-            horizontalFlipDirection = playerController.Direction.x;
-        }
-        else // Se il player è fermo
-        {
-            horizontalFlipDirection = directionToMouse.x;
-        }
-
-        // Applica il flipX in base alla direzione orizzontale rilevata
+        // Se il player si muove orizzontalmente
         if (horizontalFlipDirection < 0) 
         {
-            playerSpriteRenderer.flipX = true; 
+            playerSpriteRenderer.flipX = true; // Guarda a sinistra
         }
         else if (horizontalFlipDirection > 0) 
         {
-            playerSpriteRenderer.flipX = false; 
+            playerSpriteRenderer.flipX = false; // Guarda a destra
         }
-        // Se horizontalFlipDirection è 0 (es. movimento verticale puro o fermo senza input orizzontale del mouse),
-        // lo sprite mantiene il suo ultimo orientamento.
+
+        {
+             playerAnimator.SetFloat("LookDirectionX", playerController.Direction.x);
+             playerAnimator.SetFloat("LookDirectionY", playerController.Direction.y);
+        }
+
     }
 }
