@@ -47,9 +47,17 @@ public class PoisonBullet : AbstractBullet
             {
                 PoisonEffect effect = target.AddComponent<PoisonEffect>();
                 effect.Initialize(poisonDamagePerSecond, poisonDuration);
+                                
+                VisualEffectHandler handler = target.GetComponent<VisualEffectHandler>();
+                if (handler != null)
+                {
+                    handler.FlashSprite(new Color(0.3f, 1f, 0.3f), 0.2f);
+                }
             }
         }
     }
+
+
 
 
     public override void LevelUp()

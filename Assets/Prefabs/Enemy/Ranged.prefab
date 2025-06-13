@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1957757180321452595}
   - component: {fileID: 550929022531657512}
   - component: {fileID: 1764936852545269584}
+  - component: {fileID: 9040436693126464716}
   m_Layer: 6
   m_Name: Ranged
   m_TagString: Enemy
@@ -191,6 +192,18 @@ MonoBehaviour:
   shootCooldown: 2
   preferredDistance: 5
   moveSpeed: 3
+--- !u!114 &9040436693126464716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3072698658299365457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83a40ec01e77fb54fa43a0bcffbf4479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6717857659514667649
 GameObject:
   m_ObjectHideFlags: 0

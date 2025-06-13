@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1156680666597383662}
   - component: {fileID: 901643784195756277}
   - component: {fileID: 7655750292837206656}
+  - component: {fileID: 3130916695671948402}
   m_Layer: 6
   m_Name: Charger
   m_TagString: Enemy
@@ -189,3 +190,15 @@ MonoBehaviour:
   speed: 3
   damage: 3
   damageInterval: 1
+--- !u!114 &3130916695671948402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2414606829077022604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83a40ec01e77fb54fa43a0bcffbf4479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

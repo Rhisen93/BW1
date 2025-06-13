@@ -47,6 +47,12 @@ public class IceBullet : AbstractBullet
             {
                 IceEffect effect = target.AddComponent<IceEffect>();
                 effect.Initialize(slowMultiplier, slowDuration);
+
+                VisualEffectHandler handler = target.GetComponent<VisualEffectHandler>();
+                if (handler != null)
+                {
+                    handler.FlashSprite(new Color(0.5f, 0.8f, 1f), 0.2f); 
+                }
             }
         }
     }
