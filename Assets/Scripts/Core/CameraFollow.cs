@@ -13,12 +13,44 @@ public class CameraFollow : MonoBehaviour
 
     // LateUpdate è chiamato dopo che tutti gli Update sono stati chiamati.
     // È ideale per il movimento della telecamera, in modo che segua l'oggetto dopo che si è mosso.
+
+   /* private void Start()
+    {
+        if (target == null)
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                target = player.transform; // <- assegna qui il target
+                Debug.LogWarning("CameraFollow: Target assegnato automaticamente al player con tag 'Player'.");
+            }
+            else
+            {
+                Debug.LogWarning("CameraFollow: Nessun oggetto trovato con il tag 'Player'.");
+            }
+        }
+    }*/
+
     private void LateUpdate()
     {
         if (target == null)
         {
             Debug.LogWarning("CameraFollow: Target non assegnato. Assegna il Player al campo Target nell'Inspector.");
-            return;
+            return; // blocca qui se target è null
+        }
+
+        Vector3 desiredPosition = target.position + offset;
+        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
+        transform.position = smoothedPosition;
+    }
+    /*
+    private void LateUpdate()
+    {
+        if (target == null)
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            Debug.LogWarning("CameraFollow: Target non assegnato. Assegna il Player al campo Target nell'Inspector.");
+            //return;
         }
 
         // Calcola la posizione desiderata della telecamera
@@ -34,4 +66,5 @@ public class CameraFollow : MonoBehaviour
         // Se la tua telecamera è 2D (Orthographic), la sua Z non dovrebbe cambiare dal valore iniziale.
         // Ad esempio, se l'offset fosse Vector3(0, 0, -10), la telecamera manterrebbe la Z a -10.
     }
+    */
 }

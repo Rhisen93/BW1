@@ -137,6 +137,8 @@ public class EnemySpawner : MonoBehaviour
     /// <param name="activePhase">La fase di difficoltà attiva per i parametri.</param>
     private void SpawnEnemy(DifficultyPhase activePhase)
     {
+        // Rimuove eventuali riferimenti nulli da spawn precedenti
+        currentlySpawnableEnemies.RemoveAll(item => item == null);
         // *** MODIFICATO: Usiamo 'currentlySpawnableEnemies' ***
         if (currentlySpawnableEnemies.Count == 0)
         {

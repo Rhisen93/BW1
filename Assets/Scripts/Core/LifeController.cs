@@ -41,19 +41,22 @@ public class LifeController : MonoBehaviour
             Die(); // Chiama il metodo per la morte
         }
     }
-
     private void Die()
     {
         Debug.Log($"{gameObject.name} è morto!");
         GameManager.Instance.AddScore(scoreValue);
-        drop.Drop(gameObject.transform.position);
 
-        
-        // Distrugge l'intero GameObject a cui è attaccato questo script
+        if (drop != null)
+            drop.Drop(transform.position);
+
         Destroy(gameObject);
+    }
+ 
+        // Distrugge l'intero GameObject a cui è attaccato questo script
+        
         // Puoi aggiungere qui effetti di morte (es. animazioni, particelle, suono)
         // Oppure logica per gestire la morte del giocatore 
-    }
+    
 
     public float GetCurrentHealth()
     {

@@ -7,6 +7,12 @@ TagManager:
   - Enemy
   - Obstacle
   - Effects
+  - EnemyBullet
+  - EnemyWeapon
+  - Bullet
+  - Grid
+  - EventSystem
+  - Canvas
   layers:
   - Default
   - TransparentFX
@@ -14,10 +20,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Enemy
+  - Player
+  - PlayerBullets
+  - EnemyBullets
   - 
   - 
   - 
