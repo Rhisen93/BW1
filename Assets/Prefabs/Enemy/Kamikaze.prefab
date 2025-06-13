@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 550929022531657512}
   - component: {fileID: 6526172693733037138}
   - component: {fileID: -4274123388617924104}
+  - component: {fileID: 590220793853587929}
   m_Layer: 6
   m_Name: Kamikaze
   m_TagString: Enemy
@@ -206,3 +207,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83a40ec01e77fb54fa43a0bcffbf4479, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &590220793853587929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3072698658299365457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a0ef1ef30de7b4a9887cc13dba19c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  droppedObjects:
+  - {fileID: 9145014287070716020, guid: dcfb7cce7a99a6c4ab61a4faa4e26204, type: 3}
+  - {fileID: 8373586562469927026, guid: 3697c52f8c0be7448b0d96dfb2238d58, type: 3}
+  - {fileID: 6272857285587738638, guid: fe8f73e2b9f0a3444a78aac2248ff7a5, type: 3}
+  chance: 15

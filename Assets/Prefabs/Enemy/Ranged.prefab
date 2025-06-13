@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 550929022531657512}
   - component: {fileID: 1764936852545269584}
   - component: {fileID: 9040436693126464716}
+  - component: {fileID: 6248558228114727392}
   m_Layer: 6
   m_Name: Ranged
   m_TagString: Enemy
@@ -204,6 +205,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83a40ec01e77fb54fa43a0bcffbf4479, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6248558228114727392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3072698658299365457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a0ef1ef30de7b4a9887cc13dba19c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  droppedObjects:
+  - {fileID: 6699273115434353909, guid: 52d2382aaefd19340ba3992708a7f3b6, type: 3}
+  - {fileID: 3692155806877776920, guid: 89c07cdb31a531d408de8f279f50fa3f, type: 3}
+  - {fileID: 6272857285587738638, guid: fe8f73e2b9f0a3444a78aac2248ff7a5, type: 3}
+  chance: 15
 --- !u!1 &6717857659514667649
 GameObject:
   m_ObjectHideFlags: 0
