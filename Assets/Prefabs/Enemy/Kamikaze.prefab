@@ -129,8 +129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41bc8091a42e4564cb0657600930eefc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 20
-  scoreValue: 10
+  maxHealth: 65
+  scoreValue: 50
 --- !u!61 &550929022531657512
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -189,8 +189,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   normalSpeed: 2
-  chargeSpeed: 5
-  chargeRange: 2
+  chargeSpeed: 7
+  chargeRange: 10
   explosionRadius: 1
   damage: 15
   explosionDelay: 0.1
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   droppedObjects:
-  - {fileID: 9145014287070716020, guid: dcfb7cce7a99a6c4ab61a4faa4e26204, type: 3}
+  - {fileID: 3605374876035038605, guid: f8274e30386cbb144830dadf0ce7cd7a, type: 3}
   - {fileID: 8373586562469927026, guid: 3697c52f8c0be7448b0d96dfb2238d58, type: 3}
   - {fileID: 6272857285587738638, guid: fe8f73e2b9f0a3444a78aac2248ff7a5, type: 3}
   chance: 15

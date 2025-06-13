@@ -16,6 +16,9 @@ public abstract class Enemy : MonoBehaviour
     {
         playerTransform = GameObject.FindWithTag("Player")?.transform;
     }
-
+    public virtual void Die()
+    {
+        Destroy(gameObject); // o comportamento base desiderato
+    }
     protected abstract void FixedUpdate(); // ogni nemico definisce il proprio movimento
 }

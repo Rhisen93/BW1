@@ -130,8 +130,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41bc8091a42e4564cb0657600930eefc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 20
-  scoreValue: 10
+  maxHealth: 50
+  scoreValue: 15
 --- !u!61 &550929022531657512
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   droppedObjects:
-  - {fileID: 6699273115434353909, guid: 52d2382aaefd19340ba3992708a7f3b6, type: 3}
+  - {fileID: 9145014287070716020, guid: dcfb7cce7a99a6c4ab61a4faa4e26204, type: 3}
   - {fileID: 3692155806877776920, guid: 89c07cdb31a531d408de8f279f50fa3f, type: 3}
   - {fileID: 6272857285587738638, guid: fe8f73e2b9f0a3444a78aac2248ff7a5, type: 3}
   chance: 15
