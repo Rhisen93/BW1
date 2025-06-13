@@ -187,7 +187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a17fab195bcc646917e1113872ebc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: {fileID: 2874472591647531296, guid: 7cbda5b1fdc29f845afb426fa1f8ab1f, type: 3}
+  weapon: {fileID: 1000314475406033721}
   shootCooldown: 2
   preferredDistance: 5
   moveSpeed: 3
@@ -200,7 +200,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7572640652561227386}
-  - component: {fileID: 756896224858689203}
+  - component: {fileID: 1000314475406033721}
   m_Layer: 6
   m_Name: EnemyWeapon
   m_TagString: EnemyBullet
@@ -224,7 +224,7 @@ Transform:
   - {fileID: 7988776904741382541}
   m_Father: {fileID: 1910111011715189737}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &756896224858689203
+--- !u!114 &1000314475406033721
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6717857659514667649}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5aadd838ebd569242a0d4d957b44d9dc, type: 3}
+  m_Script: {fileID: 11500000, guid: d9cd41c6e7c5bca44b5e6d7dae685f0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 7988776904741382541}
