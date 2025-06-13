@@ -4,9 +4,9 @@ public class BaseEnemyBullet : AbstractEnemyBullet
 {
     private Vector2 direction;
 
-    private void Awake()
+    private void Start()
     {
-        SetDamageType(DamageType.BASE);
+        SetLifeTime(GetLifeTime());
     }
 
     private void Update()
@@ -25,8 +25,6 @@ public class BaseEnemyBullet : AbstractEnemyBullet
         float angle = Mathf.Atan2(_direction.y, _direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
     }
-
-
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -47,7 +45,7 @@ public class BaseEnemyBullet : AbstractEnemyBullet
 
     public override void ApplyEffect(GameObject target)
     {
-        // eventuali effetti
+        
     }
 
     public override void LevelUp()

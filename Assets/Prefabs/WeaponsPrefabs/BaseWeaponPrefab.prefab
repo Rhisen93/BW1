@@ -44,6 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aadd838ebd569242a0d4d957b44d9dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _attackRate: 0
+  _damageBuff: 0
+  _attackRateBuff: 0
   firePoint: {fileID: 0}
   firePointDistance: 0.1
   bulletPrefab: {fileID: 5419759267644450686, guid: 3b58132b16011814ab10e6c656360489, type: 3}

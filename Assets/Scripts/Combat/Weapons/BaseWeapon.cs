@@ -4,11 +4,24 @@ public class BaseWeapon : AbstractWeapon
 {
     [SerializeField] private GameObject bulletPrefab;
     private Vector2 shootDirection = Vector2.right;
+    private float baseLifetime;    
 
     private void Awake()
     {
-        Init(2f, 0, 0);
+        Init(3f, 0, 0);
         SetBulletPrefab(bulletPrefab);
+    }
+
+    private void Start()
+    {
+        if (GetCurrentBulletPrefab() != null)
+        {
+            AbstractBullet bullet = GetCurrentBulletPrefab().GetComponent<AbstractBullet>();
+            if (bullet != null)
+            {
+                baseLifetime = bullet.GetLifeTime(); 
+            }
+        }
     }
 
     public override void Shoot()
@@ -25,14 +38,11 @@ public class BaseWeapon : AbstractWeapon
         if (bullet != null)
         {
             bullet.SetDirection(shootDirection);
-            Debug.Log($"Sparo bullet {bullet.name} in direzione {shootDirection}");
-        }
-        else
-        {
-            Debug.LogError("Il prefab del proiettile non ha uno script AbstractBullet!");
+            bullet.SetDamage(bullet.GetDamage() + GetDamageBuff());
+            bullet.SetLifeTime(baseLifetime + GetLifeTimeBuff());
+
         }
     }
-
 
     protected override void SetShootDirection(Vector2 newDirection)
     {
@@ -44,6 +54,12 @@ public class BaseWeapon : AbstractWeapon
 
     public override void LevelUp()
     {
-        
+        SetDamageBuff(GetDamageBuff() + 2);
+        SetAttackRateBuff(GetAttackRateBuff() + 0.2f);
+        SetLifeTimeBuff(GetLifeTimeBuff() + 0.2f);
+
+        Debug.Log("Base weapon Level Up!");
     }
+
+
 }

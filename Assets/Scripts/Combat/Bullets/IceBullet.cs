@@ -6,6 +6,11 @@ public class IceBullet : AbstractBullet
     [SerializeField] private float slowMultiplier = 0.5f;
     [SerializeField] private float effectChance = 0.1f;
 
+    private void Start()
+    {
+        SetLifeTime(GetLifeTime());
+    }
+
     private void Update()
     {
         Move();

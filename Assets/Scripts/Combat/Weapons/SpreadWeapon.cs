@@ -5,7 +5,7 @@ public class SpreadWeapon : AbstractWeapon
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private int bulletCount = 4;
     [SerializeField] private float spreadAngle = 45f;
-    [SerializeField] private float customLifeTime = 0.25f;
+    [SerializeField] private float customLifeTime = 0.4f;
 
     private Vector2 shootDirection = Vector2.right;
 
@@ -35,7 +35,9 @@ public class SpreadWeapon : AbstractWeapon
             if (bullet != null)
             {
                 bullet.SetDirection(spreadDir.normalized);
-                bullet.SetLifeTime(customLifeTime);
+                bullet.SetDamage(bullet.GetDamage() + GetDamageBuff());
+                bullet.SetLifeTime(customLifeTime + GetLifeTimeBuff());
+
             }
         }
     }
@@ -51,6 +53,11 @@ public class SpreadWeapon : AbstractWeapon
 
     public override void LevelUp()
     {
-        
+        bulletCount = Mathf.Min(bulletCount + 1, 10);
+        spreadAngle = Mathf.Max(spreadAngle - 5f, 10f);
+        SetLifeTimeBuff(GetLifeTimeBuff() + 0.1f);
+
+        Debug.Log($"[SpreadWeapon] Level Up! Bullet count: {bulletCount}, Spread angle: {spreadAngle}");
     }
+
 }

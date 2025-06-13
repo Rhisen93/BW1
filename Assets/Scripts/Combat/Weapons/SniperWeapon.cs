@@ -33,7 +33,8 @@ public class SniperWeapon : AbstractWeapon
         {
             bullet.SetDirection(currentShootDirection);
             bullet.Init(customSpeed, customDamage, customLifeTime);
-            bullet.SetLifeTime(customLifeTime);
+            bullet.Init(customSpeed, customDamage + GetDamageBuff(), customLifeTime + GetLifeTimeBuff());
+
         }
     }
 
@@ -51,6 +52,8 @@ public class SniperWeapon : AbstractWeapon
 
     public override void LevelUp()
     {
-        
+        SetDamageBuff(GetDamageBuff() + 3);
+        SetAttackRateBuff(GetAttackRateBuff() + 0.1f);
+        SetLifeTimeBuff(GetLifeTimeBuff() + 0.3f);
     }
 }

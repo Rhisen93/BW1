@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 9011247471572138090}
   firePointDistance: 0.1
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 1516712291044989326, guid: b08db93c20184914fa762471927c2865, type: 3}
 --- !u!1 &4984108409955831130
 GameObject:
   m_ObjectHideFlags: 0

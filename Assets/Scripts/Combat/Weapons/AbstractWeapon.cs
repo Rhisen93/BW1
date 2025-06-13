@@ -2,9 +2,10 @@
 
 public abstract class AbstractWeapon : MonoBehaviour
 {
-    private float _attackRate;
-    private int _damageBuff;
-    private float _attackRateBuff;
+    [SerializeField] private float _attackRate;
+    [SerializeField] private int _damageBuff;
+    [SerializeField] private float _attackRateBuff;
+    [SerializeField] private float _lifeTimeBuff;
 
     private float _lastAttackTime;
 
@@ -29,6 +30,9 @@ public abstract class AbstractWeapon : MonoBehaviour
 
     public float GetAttackRateBuff() => _attackRateBuff;
     public void SetAttackRateBuff(float value) => _attackRateBuff = value;
+
+    public float GetLifeTimeBuff() => _lifeTimeBuff;
+    public void SetLifeTimeBuff(float value) => _lifeTimeBuff = value;
 
     public void SetPlayerController(PlayerController controller)
     {

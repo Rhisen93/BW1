@@ -6,6 +6,11 @@ public class PoisonBullet : AbstractBullet
     [SerializeField] private int poisonDamagePerSecond = 1;
     [SerializeField] private float effectChance = 0.1f;
 
+    private void Start()
+    {
+        SetLifeTime(GetLifeTime());
+    }
+
     private void Update()
     {
         Move();
