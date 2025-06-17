@@ -12,6 +12,19 @@ public class KamikazeEnemy : Enemy
     public float explosionDelay = 0.1f;
     private bool isExploding = false;
     public GameObject Explosion;
+    private SpriteRenderer spriteRenderer;
+    private Animator animator;
+    private LifeController playerLife;
+
+    protected override void Start()
+    {
+        base.Start();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if (playerTransform != null)
+            playerLife = playerTransform.GetComponent<LifeController>();
+    }
 
     protected override void FixedUpdate()
     {
@@ -21,6 +34,9 @@ public class KamikazeEnemy : Enemy
         float currentSpeed = distanceToPlayer <= chargeRange ? chargeSpeed : normalSpeed;
 
         Vector2 direction = (playerTransform.position - transform.position).normalized;
+        if (direction.x != 0)
+            spriteRenderer.flipX = direction.x < 0;
+
         rb.MovePosition(rb.position + direction * currentSpeed * Time.fixedDeltaTime);
 
         
